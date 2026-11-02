@@ -6,3 +6,5 @@ HANDOFF.md
 HANDOFF_LOG.md
 HANDOFF_ARCHIVE.md
 HANDOFF_LEASES.json
+
+.local-artifacts/

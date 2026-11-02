@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="color-scheme" content="light">
+  <title>ManCave Productions | ChainLens, Magic Money, AfterGlow and ChainLens Arcade</title>
+  <meta name="description" content="ManCave Productions is the parent company of ChainLens, Magic Money, AfterGlow and ChainLens Arcade: tools for exploring crypto, a wallet, an NFT studio and browser games.">
+  <link rel="icon" type="image/png" href="assets/mancave-trimmed-transparent.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="#home" data-view-link="home">
+        <img class="brand__mark" src="assets/mancave-trimmed-transparent.png" width="689" height="869" alt="">
+        <span class="brand__name">ManCave Productions</span>
+      </a>
+
+      <!-- Links for visitors without JavaScript. main.js swaps this for the tablist below. -->
+      <nav class="site-nav" aria-label="Site" data-fallback-nav>
+        <ul class="site-nav__list">
+          <li><a class="site-nav__item" href="#home">Home</a></li>
+          <li><a class="site-nav__item" href="#chainlens">ChainLens</a></li>
+          <li><a class="site-nav__item" href="#magic-money">Magic Money</a></li>
+          <li><a class="site-nav__item" href="#afterglow">AfterGlow</a></li>
+          <li><a class="site-nav__item" href="#arcade">ChainLens Arcade</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-nav site-nav__list" role="tablist" aria-label="ManCave Productions and its products" data-tablist hidden>
+        <button class="site-nav__item" type="button" role="tab" id="tab-home" aria-controls="home" aria-selected="true">Home</button>
+        <button class="site-nav__item" type="button" role="tab" id="tab-chainlens" aria-controls="chainlens" aria-selected="false" tabindex="-1">ChainLens</button>
+        <button class="site-nav__item" type="button" role="tab" id="tab-magic-money" aria-controls="magic-money" aria-selected="false" tabindex="-1">Magic Money</button>
+        <button class="site-nav__item" type="button" role="tab" id="tab-afterglow" aria-controls="afterglow" aria-selected="false" tabindex="-1">AfterGlow</button>
+        <button class="site-nav__item" type="button" role="tab" id="tab-arcade" aria-controls="arcade" aria-selected="false" tabindex="-1">ChainLens Arcade</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <!-- HOME -->
+    <section class="view" id="home" data-view
+      data-title="ManCave Productions | ChainLens, Magic Money, AfterGlow and ChainLens Arcade"
+      data-description="ManCave Productions is the parent company of ChainLens, Magic Money, AfterGlow and ChainLens Arcade: tools for exploring crypto, a wallet, an NFT studio and browser games.">
+      <div class="home-hero">
+        <div class="container">
+          <div class="home-hero__copy">
+            <h1 class="display">ManCave Productions</h1>
+            <p class="tagline">One company. Four products.</p>
+            <p class="lead">The company behind ChainLens, Magic Money, AfterGlow and ChainLens Arcade.</p>
+            <p>ManCave Productions is the parent company of four products. It sits above them in the same way Microsoft or Alphabet sits above its own products. Each product has its own page on this site.</p>
+            <p>ManCave Productions also has a Discord community.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="container">
+          <h2 class="section-title">Our products</h2>
+          <div class="product-index">
+            <article class="product-entry">
+              <div class="logo-panel logo-panel--chainlens product-entry__media">
+                <img src="assets/logos/chainlens.png" width="1000" height="1000" alt="" loading="lazy" decoding="async">
+              </div>
+              <h3 class="item-title">ChainLens</h3>
+              <p>Search the web and explore onchain activity in one place, in your browser.</p>
+              <a class="btn btn--primary" href="#chainlens" data-view-link="chainlens">Explore ChainLens</a>
+            </article>
+
+            <article class="product-entry">
+              <div class="logo-panel logo-panel--magic-money product-entry__media">
+                <img src="assets/logos/magic-money-icon.svg" width="1000" height="1000" alt="" loading="lazy" decoding="async">
+              </div>
+              <h3 class="item-title">Magic Money Wallet</h3>
+              <p>A self-custody, multi-chain crypto wallet, by ChainLens, for desktop, Chrome, Android and iOS.</p>
+              <a class="btn btn--primary" href="#magic-money" data-view-link="magic-money">Explore Magic Money</a>
+            </article>
+
+            <article class="product-entry">
+              <div class="logo-panel logo-panel--afterglow product-entry__media">
+                <img src="assets/logos/afterglow.png" width="3850" height="830" alt="" loading="lazy" decoding="async">
+              </div>
+              <h3 class="item-title">AfterGlow</h3>
+              <p>Create, curate, generate, publish and manage NFT collections in a local or private hosted workspace.</p>
+              <a class="btn btn--primary" href="#afterglow" data-view-link="afterglow">Explore AfterGlow</a>
+            </article>
+
+            <article class="product-entry">
+              <div class="logo-panel logo-panel--arcade product-entry__media product-entry__media--arcade">
+                <span class="logo-inset"><img src="assets/logos/chainlens.png" width="1000" height="1000" alt="" loading="lazy" decoding="async"></span>
+                <figure class="preview-game">
+                  <img src="assets/logos/arcade/duo.png" width="763" height="900" alt="" loading="lazy" decoding="async">
+                  <figcaption>DUO</figcaption>
+                </figure>
+                <figure class="preview-game preview-game--wide">
+                  <img src="assets/logos/arcade/swarm.png" width="1000" height="325" alt="" loading="lazy" decoding="async">
+                  <figcaption>Swarm</figcaption>
+                </figure>
+              </div>
+              <h3 class="item-title">ChainLens Arcade</h3>
+              <p>Free multiplayer games in your browser. Play with friends or bots.</p>
+              <a class="btn btn--primary" href="#arcade" data-view-link="arcade">Explore ChainLens Arcade</a>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="section section--mist">
+        <div class="container community">
+          <div>
+            <h2 class="section-title">Community</h2>
+            <p>The ManCave Productions community is on Discord.</p>
+          </div>
+          <a class="btn btn--secondary" href="https://discord.gg/26uxjad8uT">Join the ManCave Productions Discord</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHAINLENS -->
+    <section class="view" id="chainlens" data-view
+      data-title="ChainLens | Search the web and explore onchain activity"
+      data-description="ChainLens lets you search the web and explore onchain activity in one place. Scan public addresses across 24 networks, follow markets and more, in your browser.">
+      <div class="section">
+        <div class="container hero">
+          <div class="hero__copy">
+            <p class="eyebrow">ChainLens</p>
+            <h1 class="display">Search the web and explore onchain activity in one place.</h1>
+            <p class="lead">ChainLens is a browser-based tool that brings web search and onchain activity together.</p>
+            <p>Open ChainLens, search, and move from the web to a wallet's activity without switching tools.</p>
+            <div class="actions">
+              <a class="btn btn--primary" href="https://www.chainlensnft.info">Open ChainLens</a>
+            </div>
+          </div>
+          <div class="hero__media logo-panel logo-panel--chainlens logo-panel--hero">
+            <img src="assets/logos/chainlens.png" width="1000" height="1000" alt="ChainLens logo" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+
+      <div class="section section--mist">
+        <div class="container split">
+          <h2 class="section-title">Features</h2>
+          <div class="feature-list">
+            <div class="feature">
+              <h3 class="item-title">Search</h3>
+              <p>Search the web, find App Hub entries, and have wallet addresses recognised so you can scan them. Search is the landing page.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">Portfolio scanner</h3>
+              <p>Connect a wallet or enter public addresses to see NFTs, tokens, balances and transaction activity. The scanner covers 24 networks, including 18 EVM networks plus Solana, Polkadot, Tron and Cardano.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">Market</h3>
+              <p>See top coins and price charts, plus a New Listings view of exchange listing announcements.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">Magic Swap</h3>
+              <p>Find tokens and request quotes. The connected wallet does the signing.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">Profile</h3>
+              <p>Sign in with a supported wallet, Google, Discord or a passkey.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">Messenger</h3>
+              <p>World Chat and friend direct messages, available to eligible signed-in accounts.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">Themes</h3>
+              <p>Choose from colour themes and art themes.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">Runs on</h3>
+              <p>The web.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section section--compact">
+        <div class="container">
+          <p class="caption">ChainLens shows information. Nothing on this page is financial advice.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAGIC MONEY -->
+    <section class="view surface-dark surface-dark--mint" id="magic-money" data-view
+      data-title="Magic Money Wallet | Self-custody multi-chain crypto wallet"
+      data-description="Magic Money Wallet is a self-custody, multi-chain crypto wallet by ChainLens. One seed phrase covers 24 default networks on desktop, Chrome, Android and iOS.">
+      <div class="section">
+        <div class="container">
+          <div class="hero hero--stacked">
+            <div class="hero__copy">
+              <p class="eyebrow product-identity">
+                <img class="product-identity__icon" src="assets/logos/magic-money-icon.svg" width="1000" height="1000" alt="" loading="lazy" decoding="async">
+                <span>Magic Money Wallet</span>
+              </p>
+              <h1 class="display">One self-custody wallet for many chains.</h1>
+            </div>
+            <div class="hero__copy">
+              <p class="lead">Magic Money Wallet is a self-custody, multi-chain crypto wallet, made by ChainLens.</p>
+              <p>It's a self-custody wallet, so you are responsible for your recovery phrase. The recovery phrase is encrypted at rest, and the interface never sees private keys.</p>
+              <div class="actions">
+                <a class="btn btn--primary" href="https://github.com/M2AF/Magic-Money-Wallet/releases/latest">Download latest release</a>
+                <a class="btn btn--secondary" href="https://github.com/M2AF/Magic-Money-Wallet">View on GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="wordmark">
+            <img src="assets/logos/magic-money.png" width="1400" height="560" alt="Magic Money logo" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+
+      <div class="section section--ruled">
+        <div class="container split">
+          <h2 class="section-title">Features</h2>
+          <div class="feature-list">
+            <div class="feature">
+              <h3 class="item-title">Many networks, one seed phrase</h3>
+              <p>One seed phrase covers 24 default mainnet networks, and you can add other EVM networks. Ecosystems include EVM, Solana, Cardano, Bitcoin, Polkadot, Tron, Dogecoin, Monero, Zcash and Midnight. Network support covers what the portfolio can show; swap and send support varies by chain and route.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">Self-custody by design</h3>
+              <p>The recovery phrase is encrypted at rest, and the interface never sees private keys.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">Built-in swaps</h3>
+              <p>Same-chain and cross-chain swaps are built in. Availability varies by chain and route.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">dApp browser</h3>
+              <p>Connect to dApps, with Magic Guard ad blocking and a Tor Mode.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">Privacy Mode and Testnet Mode</h3>
+              <p>Switch on Privacy Mode, or use Testnet Mode.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">Multi-account support and art themes</h3>
+              <p>Use more than one account, and choose an art theme.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">Biometric unlock</h3>
+              <p>Unlock with Windows Hello, Touch ID or Android biometrics.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">Available as</h3>
+              <p>A desktop app (Windows, macOS, Linux), a Chrome extension, and Android and iOS apps.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section section--ruled">
+        <div class="container split">
+          <h2 class="section-title">Important to know</h2>
+          <ul class="notes">
+            <li>You are responsible for your recovery phrase. Keep it safe and private.</li>
+            <li>Not every feature works on every network.</li>
+            <li>Nothing on this site is financial advice, and no returns are promised.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- AFTERGLOW -->
+    <section class="view view--afterglow" id="afterglow" data-view
+      data-title="AfterGlow | Create and manage NFT collections"
+      data-description="AfterGlow lets you create, curate, generate, publish and manage NFT collections in a local or private hosted workspace, with layer-based generation and canvas editing.">
+      <div class="section">
+        <div class="container hero">
+          <div class="hero__copy">
+            <p class="eyebrow">AfterGlow</p>
+            <h1 class="display">Build and manage NFT collections in your own workspace.</h1>
+            <p class="lead">AfterGlow is for creating, curating, generating, publishing and managing NFT collections.</p>
+            <p>It runs as a local or private hosted install.</p>
+          </div>
+          <div class="hero__media logo-panel logo-panel--afterglow logo-panel--hero">
+            <img src="assets/logos/afterglow.png" width="3850" height="830" alt="AfterGlow logo" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+
+      <div class="section section--mist">
+        <div class="container split">
+          <h2 class="section-title">Features</h2>
+          <div class="feature-list">
+            <div class="feature">
+              <h3 class="item-title">Layer-based generation</h3>
+              <p>Import folders of trait layers and set rarity weights per trait.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">Canvas editing</h3>
+              <p>Select multiple layers, then move, scale, rotate, crop and draw.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">Trait rules</h3>
+              <p>Linked front and back artwork is supported, and exclusions and incompatibilities are handled during generation.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">Your files stay safe</h3>
+              <p>AfterGlow works on a copy of your artwork, not the original folder.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">Nothing bundled</h3>
+              <p>It ships with no collection artwork, wallets or credentials.</p>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">AfterMarket</h3>
+            </div>
+            <div class="feature">
+              <h3 class="item-title">Runs on</h3>
+              <p>A local or private hosted install.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHAINLENS ARCADE -->
+    <section class="view surface-dark surface-dark--cyan" id="arcade" data-view
+      data-title="ChainLens Arcade | Free multiplayer games in your browser"
+      data-description="ChainLens Arcade offers free multiplayer games in your browser: DUO, Poker, Pool, Swarm, Clash and World. Play with friends or bots. Guests can play without an account.">
+      <div class="section">
+        <div class="container">
+          <div class="hero hero--stacked">
+            <div class="hero__copy">
+              <p class="arcade-name">
+                <span class="logo-inset"><img src="assets/logos/chainlens.png" width="1000" height="1000" alt="" loading="lazy" decoding="async"></span>
+                <span>ChainLens Arcade</span>
+              </p>
+              <h1 class="display">Free multiplayer games in your browser.</h1>
+            </div>
+            <div class="hero__copy">
+              <p class="lead">ChainLens Arcade has six games you can play with friends or bots, right in your browser. Guests can play without an account.</p>
+              <div class="actions actions--with-note">
+                <a class="btn btn--primary" href="https://duo.magicmoney.dev">Play ChainLens Arcade</a>
+                <p class="caption action-note">ChainLens Arcade is the new name. The game site still shows its old name, "DUO Arcade", while the rename finishes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section section--ruled">
+        <div class="container">
+          <h2 class="section-title">The games</h2>
+          <div class="game-grid">
+            <article class="game">
+              <div class="logo-panel logo-panel--arcade game__media">
+                <img src="assets/logos/arcade/duo.png" width="763" height="900" alt="DUO logo" loading="lazy" decoding="async">
+              </div>
+              <h3 class="item-title">DUO</h3>
+              <p>A free card game. Team up and share one hand, or go SOLO with classic rules. DUO teams run 2v2, 3v3, 4v4 and 2v2v2v2; SOLO takes 2 to 10 players.</p>
+            </article>
+            <article class="game">
+              <div class="logo-panel logo-panel--poker game__media">
+                <img src="assets/logos/arcade/poker.png" width="4166" height="4166" alt="Poker logo" loading="lazy" decoding="async">
+              </div>
+              <h3 class="item-title">Poker</h3>
+              <p>Texas Hold'em and Blackjack with friends and bots, using free play chips.</p>
+            </article>
+            <article class="game">
+              <div class="logo-panel logo-panel--arcade game__media">
+                <img src="assets/logos/arcade/pool.png" width="1536" height="1024" alt="Pool logo" loading="lazy" decoding="async">
+              </div>
+              <h3 class="item-title">Pool</h3>
+              <p>3D 8-ball with friends and bots. Play solo head to head, or Duo in teams of two.</p>
+            </article>
+            <article class="game">
+              <div class="logo-panel logo-panel--arcade game__media">
+                <img src="assets/logos/arcade/swarm.png" width="1000" height="325" alt="Swarm logo" loading="lazy" decoding="async">
+              </div>
+              <h3 class="item-title">Swarm</h3>
+              <p>Pick a hero and survive a growing horde. Co-op for 2 to 4 players.</p>
+            </article>
+            <article class="game">
+              <div class="logo-panel logo-panel--arcade game__media">
+                <img src="assets/logos/arcade/clash.png" width="2060" height="763" alt="Clash logo" loading="lazy" decoding="async">
+              </div>
+              <h3 class="item-title">Clash</h3>
+              <p>A platform fighter. Rack up damage and launch your rivals off the stage. Free for all or 2v2.</p>
+            </article>
+            <article class="game">
+              <div class="logo-panel logo-panel--world game__media">
+                <img src="assets/logos/arcade/world.png" width="1200" height="624" alt="World logo" loading="lazy" decoding="async">
+              </div>
+              <h3 class="item-title">World</h3>
+              <p>An open-world adventure. Explore, fight monsters, loot, trade and quest with friends.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="caption">ManCave Productions is the parent company of ChainLens, Magic Money, AfterGlow and ChainLens Arcade.</p>
+      <p class="caption"><a href="https://discord.gg/26uxjad8uT">Join the ManCave Productions Discord</a></p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

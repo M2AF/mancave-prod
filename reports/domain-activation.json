@@ -1,0 +1,15 @@
+{
+  "id": "1dcdc04b-cd21-4172-8c56-8818382d5d40",
+  "domain_id": "1dcdc04b-cd21-4172-8c56-8818382d5d40",
+  "name": "mancave.chainlensnft.info",
+  "status": "initializing",
+  "verification_data": {
+    "status": "pending"
+  },
+  "validation_data": {
+    "status": "initializing",
+    "method": "http"
+  },
+  "certificate_authority": "google",
+  "created_on": "2026-11-02T05:41:18.613384Z"
+}
