@@ -328,26 +328,26 @@ main:has(> .surface-dark:not([hidden])):focus-visible { outline-color: var(--amb
   .product-entry__media { height: 18rem; --logo-h: 14rem; }
 }
 
-/* Arcade entry: ChainLens inset above the two labelled games; one row once wide enough. */
+/* Arcade entry: the six labelled games, 2 x 3 on one-column layouts, 3 x 2 beside another card. */
 .product-entry__media--arcade {
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  gap: .75rem 1rem;
-  align-content: center;
-  align-items: end;
-  justify-items: center;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: minmax(0, 1fr);
+  gap: .75rem;
   height: auto;
   min-height: 14rem;
+  padding: 1rem;
 }
-.product-entry__media--arcade > .logo-inset { grid-column: 1 / -1; }
 .preview-game {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: .25rem;
   min-width: 0;
+  min-height: 0;
   margin: 0;
-  --logo-h: 5rem;
+  --logo-h: 4.5rem;
 }
 .preview-game figcaption {
   color: var(--paper);
@@ -355,12 +355,21 @@ main:has(> .surface-dark:not([hidden])):focus-visible { outline-color: var(--amb
   font-weight: 600;
   line-height: 1.4;
 }
+/* Poker and World artwork is dark on transparent, so it keeps its usual pale backing. */
+.preview-game--pale { padding: .25rem; border-radius: 4px; background: var(--violet-pale); }
+.preview-game--pale figcaption { color: var(--ink); }
+@media (min-width: 768px) {
+  /* Fixed height matches the AfterGlow card beside it. */
+  .product-entry__media--arcade {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    height: 14rem;
+    min-height: 0;
+  }
+  .preview-game { --logo-h: 3.5rem; }
+}
 @media (min-width: 1024px) {
-  /* Wrapping shrinks the flex line to its content, so align-content can centre the row. */
-  .product-entry__media--arcade { display: flex; flex-wrap: wrap; gap: 1rem; min-height: 18rem; }
-  .product-entry__media--arcade > .logo-inset { align-self: center; }
-  .preview-game { --logo-h: 7.5rem; }
-  .preview-game--wide { flex: 0 1 40%; }
+  .product-entry__media--arcade { height: 18rem; gap: 1rem; padding: 1.5rem; }
+  .preview-game { --logo-h: 5rem; }
 }
 
 .community {
