@@ -1,0 +1,7221 @@
+[
+  {
+    "width": 1440,
+    "view": "home",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 1440,
+    "view": "home",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "chainlens",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "magic-money",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "afterglow",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "arcade",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 1440,
+    "view": "home",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "home",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 1440,
+    "view": "home",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 226.515625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Explore ChainLens",
+        "id": "",
+        "href": "#chainlens",
+        "width": 157.78125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Explore Magic Money",
+        "id": "",
+        "href": "#magic-money",
+        "width": 181.703125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Explore AfterGlow",
+        "id": "",
+        "href": "#afterglow",
+        "width": 157.765625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Explore ChainLens Arcade",
+        "id": "",
+        "href": "#arcade",
+        "width": 209.28125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 296.375,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "view": "home",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "home",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-home",
+        "role": "tab"
+      },
+      {
+        "id": "home",
+        "panel": "home",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "view": "home",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "offenders": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "home",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "home",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 1440,
+    "view": "home",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "home",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "home",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "home",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "chainlens",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 1440,
+    "view": "chainlens",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "home",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "magic-money",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "afterglow",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "arcade",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 1440,
+    "view": "chainlens",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "chainlens",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 1440,
+    "view": "chainlens",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 226.515625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Open ChainLens",
+        "id": "",
+        "href": "https://www.chainlensnft.info",
+        "width": 144.296875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "view": "chainlens",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "chainlens",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-chainlens",
+        "role": "tab"
+      },
+      {
+        "id": "chainlens",
+        "panel": "chainlens",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "panel": "chainlens",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "view": "chainlens",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "offenders": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "chainlens",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "chainlens",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 1440,
+    "view": "chainlens",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "chainlens",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "chainlens",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "chainlens",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "magic-money",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 1440,
+    "view": "magic-money",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "home",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "chainlens",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "afterglow",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "arcade",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 1440,
+    "view": "magic-money",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "magic-money",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 1440,
+    "view": "magic-money",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 226.515625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Download latest release",
+        "id": "",
+        "href": "https://github.com/M2AF/Magic-Money-Wallet/releases/latest",
+        "width": 196.109375,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 206, 102)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(16, 24, 39) 0px 0px 0px 2px"
+      },
+      {
+        "text": "View on GitHub",
+        "id": "",
+        "href": "https://github.com/M2AF/Magic-Money-Wallet",
+        "width": 141.4375,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 206, 102)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "view": "magic-money",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "magic-money",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-magic-money",
+        "role": "tab"
+      },
+      {
+        "id": "magic-money",
+        "panel": "magic-money",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "panel": "magic-money",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "magic-money",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "view": "magic-money",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "offenders": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "magic-money",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "magic-money",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 1440,
+    "view": "magic-money",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "magic-money",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "magic-money",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "magic-money",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "afterglow",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 1440,
+    "view": "afterglow",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "home",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "chainlens",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "magic-money",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "arcade",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 1440,
+    "view": "afterglow",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "afterglow",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 1440,
+    "view": "afterglow",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 226.515625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "view": "afterglow",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "afterglow",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-afterglow",
+        "role": "tab"
+      },
+      {
+        "id": "afterglow",
+        "panel": "afterglow",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "view": "afterglow",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "offenders": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "afterglow",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "afterglow",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 1440,
+    "view": "afterglow",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "afterglow",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "afterglow",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "afterglow",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "arcade",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 1440,
+    "view": "arcade",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "home",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "chainlens",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "magic-money",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "afterglow",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 1440,
+    "view": "arcade",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "arcade",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 1440,
+    "view": "arcade",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 226.515625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Play ChainLens Arcade",
+        "id": "",
+        "href": "https://duo.magicmoney.dev",
+        "width": 186.84375,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 206, 102)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(16, 24, 39) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "view": "arcade",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "arcade",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-arcade",
+        "role": "tab"
+      },
+      {
+        "id": "arcade",
+        "panel": "arcade",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "panel": "arcade",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "view": "arcade",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 1440,
+      "document": 1440,
+      "body": 1440,
+      "offenders": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "arcade",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "arcade",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 1440,
+    "view": "arcade",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "arcade",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "arcade",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 1440,
+    "view": "arcade",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "home",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#home",
+        "y": 0,
+        "scrollY": 65
+      }
+    }
+  },
+  {
+    "width": 1440,
+    "view": "home",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "chainlens",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#chainlens",
+        "y": 0.328125,
+        "scrollY": 2176
+      }
+    }
+  },
+  {
+    "width": 1440,
+    "view": "chainlens",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "magic-money",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#magic-money",
+        "y": 0.078125,
+        "scrollY": 3742
+      }
+    }
+  },
+  {
+    "width": 1440,
+    "view": "magic-money",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "afterglow",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#afterglow",
+        "y": 0.453125,
+        "scrollY": 5605
+      }
+    }
+  },
+  {
+    "width": 1440,
+    "view": "afterglow",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 1440,
+    "view": "arcade",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#arcade",
+        "y": 0.203125,
+        "scrollY": 6974
+      }
+    }
+  },
+  {
+    "width": 1440,
+    "view": "arcade",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "home",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 768,
+    "view": "home",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "chainlens",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "magic-money",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "afterglow",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "arcade",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 768,
+    "view": "home",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "home",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 768,
+    "view": "home",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 220.171875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Explore ChainLens",
+        "id": "",
+        "href": "#chainlens",
+        "width": 157.78125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Explore Magic Money",
+        "id": "",
+        "href": "#magic-money",
+        "width": 181.703125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Explore AfterGlow",
+        "id": "",
+        "href": "#afterglow",
+        "width": 157.765625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Explore ChainLens Arcade",
+        "id": "",
+        "href": "#arcade",
+        "width": 209.28125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 296.375,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "view": "home",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "home",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-home",
+        "role": "tab"
+      },
+      {
+        "id": "home",
+        "panel": "home",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "view": "home",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "offenders": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "home",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "home",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 768,
+    "view": "home",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "home",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "home",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "home",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "chainlens",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 768,
+    "view": "chainlens",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "home",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "magic-money",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "afterglow",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "arcade",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 768,
+    "view": "chainlens",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "chainlens",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 768,
+    "view": "chainlens",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 220.171875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Open ChainLens",
+        "id": "",
+        "href": "https://www.chainlensnft.info",
+        "width": 144.296875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "view": "chainlens",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "chainlens",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-chainlens",
+        "role": "tab"
+      },
+      {
+        "id": "chainlens",
+        "panel": "chainlens",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "panel": "chainlens",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "view": "chainlens",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "offenders": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "chainlens",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "chainlens",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 768,
+    "view": "chainlens",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "chainlens",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "chainlens",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "chainlens",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "magic-money",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 768,
+    "view": "magic-money",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "home",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "chainlens",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "afterglow",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "arcade",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 768,
+    "view": "magic-money",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "magic-money",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 768,
+    "view": "magic-money",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 220.171875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Download latest release",
+        "id": "",
+        "href": "https://github.com/M2AF/Magic-Money-Wallet/releases/latest",
+        "width": 196.109375,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 206, 102)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(16, 24, 39) 0px 0px 0px 2px"
+      },
+      {
+        "text": "View on GitHub",
+        "id": "",
+        "href": "https://github.com/M2AF/Magic-Money-Wallet",
+        "width": 141.4375,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 206, 102)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "view": "magic-money",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "magic-money",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-magic-money",
+        "role": "tab"
+      },
+      {
+        "id": "magic-money",
+        "panel": "magic-money",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "panel": "magic-money",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "magic-money",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "view": "magic-money",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "offenders": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "magic-money",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "magic-money",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 768,
+    "view": "magic-money",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "magic-money",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "magic-money",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "magic-money",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "afterglow",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 768,
+    "view": "afterglow",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "home",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "chainlens",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "magic-money",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "arcade",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 768,
+    "view": "afterglow",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "afterglow",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 768,
+    "view": "afterglow",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 220.171875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "view": "afterglow",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "afterglow",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-afterglow",
+        "role": "tab"
+      },
+      {
+        "id": "afterglow",
+        "panel": "afterglow",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "view": "afterglow",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "offenders": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "afterglow",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "afterglow",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 768,
+    "view": "afterglow",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "afterglow",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "afterglow",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "afterglow",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "arcade",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 768,
+    "view": "arcade",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "home",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "chainlens",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "magic-money",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "afterglow",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 768,
+    "view": "arcade",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "arcade",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 768,
+    "view": "arcade",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 220.171875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Play ChainLens Arcade",
+        "id": "",
+        "href": "https://duo.magicmoney.dev",
+        "width": 186.84375,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 206, 102)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(16, 24, 39) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "view": "arcade",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "arcade",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-arcade",
+        "role": "tab"
+      },
+      {
+        "id": "arcade",
+        "panel": "arcade",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "panel": "arcade",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "view": "arcade",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 768,
+      "document": 768,
+      "body": 768,
+      "offenders": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "arcade",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "arcade",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 768,
+    "view": "arcade",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "arcade",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "arcade",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 768,
+    "view": "arcade",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "home",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#home",
+        "y": 0,
+        "scrollY": 117
+      }
+    }
+  },
+  {
+    "width": 768,
+    "view": "home",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "chainlens",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#chainlens",
+        "y": 0.3125,
+        "scrollY": 1931
+      }
+    }
+  },
+  {
+    "width": 768,
+    "view": "chainlens",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "magic-money",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#magic-money",
+        "y": 0.265625,
+        "scrollY": 3448
+      }
+    }
+  },
+  {
+    "width": 768,
+    "view": "magic-money",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "afterglow",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#afterglow",
+        "y": 0.046875,
+        "scrollY": 5257
+      }
+    }
+  },
+  {
+    "width": 768,
+    "view": "afterglow",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 768,
+    "view": "arcade",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#arcade",
+        "y": -0.34375,
+        "scrollY": 6531
+      }
+    }
+  },
+  {
+    "width": 768,
+    "view": "arcade",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 768,
+        "scrollWidth": 768
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "home",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 390,
+    "view": "home",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "chainlens",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "magic-money",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "afterglow",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "arcade",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 390,
+    "view": "home",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "home",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 390,
+    "view": "home",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 220.171875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Explore ChainLens",
+        "id": "",
+        "href": "#chainlens",
+        "width": 157.78125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Explore Magic Money",
+        "id": "",
+        "href": "#magic-money",
+        "width": 181.703125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Explore AfterGlow",
+        "id": "",
+        "href": "#afterglow",
+        "width": 157.765625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Explore ChainLens Arcade",
+        "id": "",
+        "href": "#arcade",
+        "width": 209.28125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 296.375,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "view": "home",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "home",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-home",
+        "role": "tab"
+      },
+      {
+        "id": "home",
+        "panel": "home",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "view": "home",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "offenders": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "home",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "home",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 390,
+    "view": "home",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "home",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "home",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "home",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "chainlens",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 390,
+    "view": "chainlens",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "home",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "magic-money",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "afterglow",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "arcade",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 390,
+    "view": "chainlens",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "chainlens",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 390,
+    "view": "chainlens",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 220.171875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Open ChainLens",
+        "id": "",
+        "href": "https://www.chainlensnft.info",
+        "width": 144.296875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "view": "chainlens",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "chainlens",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-chainlens",
+        "role": "tab"
+      },
+      {
+        "id": "chainlens",
+        "panel": "chainlens",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "panel": "chainlens",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "view": "chainlens",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "offenders": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "chainlens",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "chainlens",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 390,
+    "view": "chainlens",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "chainlens",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "chainlens",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "chainlens",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "magic-money",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 390,
+    "view": "magic-money",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "home",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "chainlens",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "afterglow",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "arcade",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 390,
+    "view": "magic-money",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "magic-money",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 390,
+    "view": "magic-money",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 220.171875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Download latest release",
+        "id": "",
+        "href": "https://github.com/M2AF/Magic-Money-Wallet/releases/latest",
+        "width": 196.109375,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 206, 102)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(16, 24, 39) 0px 0px 0px 2px"
+      },
+      {
+        "text": "View on GitHub",
+        "id": "",
+        "href": "https://github.com/M2AF/Magic-Money-Wallet",
+        "width": 141.4375,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 206, 102)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "view": "magic-money",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "magic-money",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-magic-money",
+        "role": "tab"
+      },
+      {
+        "id": "magic-money",
+        "panel": "magic-money",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "panel": "magic-money",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "magic-money",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "view": "magic-money",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "offenders": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "magic-money",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "magic-money",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 390,
+    "view": "magic-money",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "magic-money",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "magic-money",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "magic-money",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "afterglow",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 390,
+    "view": "afterglow",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "home",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "chainlens",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "magic-money",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "arcade",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 390,
+    "view": "afterglow",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "afterglow",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 390,
+    "view": "afterglow",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 220.171875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "view": "afterglow",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "afterglow",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-afterglow",
+        "role": "tab"
+      },
+      {
+        "id": "afterglow",
+        "panel": "afterglow",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "view": "afterglow",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "offenders": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "afterglow",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "afterglow",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 390,
+    "view": "afterglow",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "afterglow",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "afterglow",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "afterglow",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "arcade",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 390,
+    "view": "arcade",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "home",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "chainlens",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "magic-money",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "afterglow",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 390,
+    "view": "arcade",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "arcade",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 390,
+    "view": "arcade",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 220.171875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Play ChainLens Arcade",
+        "id": "",
+        "href": "https://duo.magicmoney.dev",
+        "width": 186.84375,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 206, 102)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(16, 24, 39) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "view": "arcade",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "arcade",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-arcade",
+        "role": "tab"
+      },
+      {
+        "id": "arcade",
+        "panel": "arcade",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "panel": "arcade",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "view": "arcade",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 390,
+      "document": 390,
+      "body": 390,
+      "offenders": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "arcade",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "arcade",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 390,
+    "view": "arcade",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "arcade",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "arcade",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 390,
+    "view": "arcade",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "home",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#home",
+        "y": 0,
+        "scrollY": 165
+      }
+    }
+  },
+  {
+    "width": 390,
+    "view": "home",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "chainlens",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#chainlens",
+        "y": 0.40625,
+        "scrollY": 2779
+      }
+    }
+  },
+  {
+    "width": 390,
+    "view": "chainlens",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "magic-money",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#magic-money",
+        "y": 0.34375,
+        "scrollY": 4995
+      }
+    }
+  },
+  {
+    "width": 390,
+    "view": "magic-money",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "afterglow",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#afterglow",
+        "y": 0.40625,
+        "scrollY": 7273
+      }
+    }
+  },
+  {
+    "width": 390,
+    "view": "afterglow",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 390,
+    "view": "arcade",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#arcade",
+        "y": -0.21875,
+        "scrollY": 8969
+      }
+    }
+  },
+  {
+    "width": 390,
+    "view": "arcade",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "home",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 320,
+    "view": "home",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "chainlens",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "magic-money",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "afterglow",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "arcade",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 320,
+    "view": "home",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "home",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 320,
+    "view": "home",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 220.171875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Explore ChainLens",
+        "id": "",
+        "href": "#chainlens",
+        "width": 157.78125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Explore Magic Money",
+        "id": "",
+        "href": "#magic-money",
+        "width": 181.703125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Explore AfterGlow",
+        "id": "",
+        "href": "#afterglow",
+        "width": 157.765625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Explore ChainLens Arcade",
+        "id": "",
+        "href": "#arcade",
+        "width": 209.28125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 288,
+        "height": 60,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "view": "home",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "home",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-home",
+        "role": "tab"
+      },
+      {
+        "id": "home",
+        "panel": "home",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "home",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "view": "home",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "offenders": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "home",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "home",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 320,
+    "view": "home",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "home",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "home",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "home",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "chainlens",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 320,
+    "view": "chainlens",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "home",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "magic-money",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "afterglow",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "arcade",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 320,
+    "view": "chainlens",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "chainlens",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 320,
+    "view": "chainlens",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 220.171875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Open ChainLens",
+        "id": "",
+        "href": "https://www.chainlensnft.info",
+        "width": 144.296875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "view": "chainlens",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "chainlens",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-chainlens",
+        "role": "tab"
+      },
+      {
+        "id": "chainlens",
+        "panel": "chainlens",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "panel": "chainlens",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "view": "chainlens",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "offenders": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "chainlens",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "chainlens",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 320,
+    "view": "chainlens",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "chainlens",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "chainlens",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "chainlens",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "magic-money",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 320,
+    "view": "magic-money",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "home",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "chainlens",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "afterglow",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "arcade",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 320,
+    "view": "magic-money",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "magic-money",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 320,
+    "view": "magic-money",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 220.171875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Download latest release",
+        "id": "",
+        "href": "https://github.com/M2AF/Magic-Money-Wallet/releases/latest",
+        "width": 196.109375,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 206, 102)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(16, 24, 39) 0px 0px 0px 2px"
+      },
+      {
+        "text": "View on GitHub",
+        "id": "",
+        "href": "https://github.com/M2AF/Magic-Money-Wallet",
+        "width": 141.4375,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 206, 102)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "view": "magic-money",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "magic-money",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-magic-money",
+        "role": "tab"
+      },
+      {
+        "id": "magic-money",
+        "panel": "magic-money",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "panel": "magic-money",
+        "role": null
+      },
+      {
+        "id": "",
+        "panel": "magic-money",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "view": "magic-money",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "offenders": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "magic-money",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "magic-money",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 320,
+    "view": "magic-money",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "magic-money",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "magic-money",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "magic-money",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "afterglow",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 320,
+    "view": "afterglow",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "home",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "chainlens",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "magic-money",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "arcade",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 320,
+    "view": "afterglow",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "afterglow",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 320,
+    "view": "afterglow",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 220.171875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "view": "afterglow",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "afterglow",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-afterglow",
+        "role": "tab"
+      },
+      {
+        "id": "afterglow",
+        "panel": "afterglow",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "view": "afterglow",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "offenders": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "afterglow",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "afterglow",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 320,
+    "view": "afterglow",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "afterglow",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "afterglow",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "afterglow",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "arcade",
+    "check": "Tab semantics and selection",
+    "status": "PASS",
+    "evidence": "Five labelled tabs, reciprocal controls/labelledby, one tabindex=0; selected panel only visible."
+  },
+  {
+    "width": 320,
+    "view": "arcade",
+    "check": "Inactive panels excluded",
+    "status": "PASS",
+    "evidence": {
+      "programmaticFocusRejected": true,
+      "accessibility": [
+        {
+          "id": "home",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "chainlens",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "magic-money",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        },
+        {
+          "id": "afterglow",
+          "nodes": [
+            {
+              "ignored": true,
+              "role": "none"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "width": 320,
+    "view": "arcade",
+    "check": "Keyboard arrows/wrap/Home/End/Enter/Space",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "arcade",
+    "check": "Skip link",
+    "status": "PASS",
+    "evidence": {
+      "text": "Skip to main content",
+      "href": "#main",
+      "visible": true,
+      "outline": "rgb(0, 51, 185) solid 3px"
+    }
+  },
+  {
+    "width": 320,
+    "view": "arcade",
+    "check": "Focus rings",
+    "status": "PASS",
+    "evidence": [
+      {
+        "text": "Skip to main content",
+        "id": "",
+        "href": "#main",
+        "width": 173.6875,
+        "height": 45,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(255, 255, 255) 0px 0px 0px 2px"
+      },
+      {
+        "text": "ManCave Productions",
+        "id": "",
+        "href": "#home",
+        "width": 220.171875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Home",
+        "id": "tab-home",
+        "href": null,
+        "width": 65.25,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens",
+        "id": "tab-chainlens",
+        "href": null,
+        "width": 93.078125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Magic Money",
+        "id": "tab-magic-money",
+        "href": null,
+        "width": 117,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "AfterGlow",
+        "id": "tab-afterglow",
+        "href": null,
+        "width": 93.0625,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "ChainLens Arcade",
+        "id": "tab-arcade",
+        "href": null,
+        "width": 144.578125,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      },
+      {
+        "text": "Play ChainLens Arcade",
+        "id": "",
+        "href": "https://duo.magicmoney.dev",
+        "width": 186.84375,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(255, 206, 102)",
+        "outlineOffset": "3px",
+        "boxShadow": "rgb(16, 24, 39) 0px 0px 0px 2px"
+      },
+      {
+        "text": "Join the ManCave Productions Discord",
+        "id": "",
+        "href": "https://discord.gg/26uxjad8uT",
+        "width": 244.875,
+        "height": 44,
+        "focusVisible": true,
+        "outlineStyle": "solid",
+        "outlineWidth": "3px",
+        "outlineColor": "rgb(0, 51, 185)",
+        "outlineOffset": "3px",
+        "boxShadow": "none"
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "view": "arcade",
+    "check": "Tap targets >=44px",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "arcade",
+    "check": "Keyboard tab order isolation",
+    "status": "PASS",
+    "evidence": [
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "tab-arcade",
+        "role": "tab"
+      },
+      {
+        "id": "arcade",
+        "panel": "arcade",
+        "role": "tabpanel"
+      },
+      {
+        "id": "",
+        "panel": "arcade",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      },
+      {
+        "id": "",
+        "role": null
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "view": "arcade",
+    "check": "No horizontal overflow",
+    "status": "PASS",
+    "evidence": {
+      "viewport": 320,
+      "document": 320,
+      "body": 320,
+      "offenders": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "arcade",
+    "check": "No broken images",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "arcade",
+    "check": "Deep links and back/forward",
+    "status": "PASS",
+    "evidence": {
+      "back": true,
+      "forward": true
+    }
+  },
+  {
+    "width": 320,
+    "view": "arcade",
+    "check": "Reduced motion",
+    "status": "PASS",
+    "evidence": {
+      "reduced": true,
+      "running": 0,
+      "styles": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "arcade",
+    "check": "No console/page errors",
+    "status": "PASS",
+    "evidence": {
+      "consoleErrors": [],
+      "pageErrors": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "arcade",
+    "check": "Loopback-only requests",
+    "status": "PASS",
+    "evidence": []
+  },
+  {
+    "width": 320,
+    "view": "arcade",
+    "check": "No HTTP errors or failed requests",
+    "status": "PASS",
+    "evidence": {
+      "badResponses": [],
+      "failedRequests": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "home",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#home",
+        "y": 0,
+        "scrollY": 165
+      }
+    }
+  },
+  {
+    "width": 320,
+    "view": "home",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "chainlens",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#chainlens",
+        "y": -0.0625,
+        "scrollY": 2963
+      }
+    }
+  },
+  {
+    "width": 320,
+    "view": "chainlens",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "magic-money",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#magic-money",
+        "y": -0.40625,
+        "scrollY": 5301
+      }
+    }
+  },
+  {
+    "width": 320,
+    "view": "magic-money",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "afterglow",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#afterglow",
+        "y": -0.1875,
+        "scrollY": 7905
+      }
+    }
+  },
+  {
+    "width": 320,
+    "view": "afterglow",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": 320,
+    "view": "arcade",
+    "check": "JavaScript disabled: content and header anchors",
+    "status": "PASS",
+    "evidence": {
+      "allVisible": true,
+      "destination": {
+        "hash": "#arcade",
+        "y": -0.0625,
+        "scrollY": 9664
+      }
+    }
+  },
+  {
+    "width": 320,
+    "view": "arcade",
+    "check": "JavaScript disabled: overflow/network/images",
+    "status": "PASS",
+    "evidence": {
+      "geometry": {
+        "width": 320,
+        "scrollWidth": 320
+      },
+      "nojsErrors": []
+    }
+  },
+  {
+    "width": "all",
+    "view": "all",
+    "check": "Exact outbound links",
+    "status": "PASS",
+    "evidence": [
+      {
+        "href": "https://discord.gg/26uxjad8uT",
+        "text": "Join the ManCave Productions Discord",
+        "location": "home"
+      },
+      {
+        "href": "https://www.chainlensnft.info",
+        "text": "Open ChainLens",
+        "location": "chainlens"
+      },
+      {
+        "href": "https://github.com/M2AF/Magic-Money-Wallet/releases/latest",
+        "text": "Download latest release",
+        "location": "magic-money"
+      },
+      {
+        "href": "https://github.com/M2AF/Magic-Money-Wallet",
+        "text": "View on GitHub",
+        "location": "magic-money"
+      },
+      {
+        "href": "https://duo.magicmoney.dev",
+        "text": "Play ChainLens Arcade",
+        "location": "arcade"
+      },
+      {
+        "href": "https://discord.gg/26uxjad8uT",
+        "text": "Join the ManCave Productions Discord",
+        "location": "footer"
+      }
+    ]
+  },
+  {
+    "width": "all",
+    "view": "afterglow",
+    "check": "AfterGlow has no link/button",
+    "status": "PASS",
+    "evidence": {
+      "scope": "#afterglow content panel; shared header/footer excluded"
+    }
+  },
+  {
+    "width": "all",
+    "view": "arcade",
+    "check": "DUO Arcade exactly once beside Play",
+    "status": "PASS",
+    "evidence": {
+      "occurrences": [
+        {
+          "file": "index.html",
+          "line": 345,
+          "text": "DUO Arcade"
+        }
+      ],
+      "sameActionsContainer": true
+    }
+  },
+  {
+    "width": "all",
+    "view": "all",
+    "check": "Protected files unchanged",
+    "status": "PASS",
+    "evidence": {
+      "before": {
+        "site\\assets\\company-grid.svg": "1cf999d3b685c470914b61bea668f3e5fed0fb7044e18c334511e292edb6cd11",
+        "site\\assets\\logos\\afterglow.png": "c38adeb53dde755ac7bf5a58a4dce7dd7c0fdea4e8dfc1a5b7ee2b893ea875ce",
+        "site\\assets\\logos\\arcade\\clash.png": "e5bb1a999e0a60f2f5bf77a7560994a47ee3bb9d7f448a41b9cf5ef9bcf917e8",
+        "site\\assets\\logos\\arcade\\duo.png": "b2a6185523cf2b2940a7d5b8247d8a0e183599499002529794f8e5d155cdf730",
+        "site\\assets\\logos\\arcade\\poker.png": "ab69286d4466e0ab21262cd00d576990d41843921af891085c929a75c1644c23",
+        "site\\assets\\logos\\arcade\\pool.png": "f207c366600e017a03018c722c49fcf384dbd4a8c03d680e71ec6b2151ece35e",
+        "site\\assets\\logos\\arcade\\swarm.png": "6d90fce16f2db7fcb5aa6cda700cf409d29f0d759b301f62e2c8f51bcd246190",
+        "site\\assets\\logos\\arcade\\world.png": "8bd0a08116fdd46ae059432cc57ebca52f06bb5f8600447a2b708a28be073f89",
+        "site\\assets\\logos\\chainlens.png": "46206da6dd0bbd657459c2438e3b988734aef91547e45639b13103144f419250",
+        "site\\assets\\logos\\magic-money-icon.svg": "d211174a70845de30dc68cb69433eceaafb9228f0871a7737aa4d19350af28e6",
+        "site\\assets\\logos\\magic-money.png": "58216078a4fdbd4d1fd9e64889249317fcbfa171a3c668f0a377d76d1a12853b",
+        "site\\assets\\mancave-trimmed-transparent.png": "b87178331329dabdf0f2e1559bef8cb9e7a56ac82b56aaacadcd7a0073afbd5a",
+        "site\\index.html": "e39fb07e16208675fd95d171271ae27daea378b8da77942a2a64a091c08b9061",
+        "site\\main.js": "f646ea618565676aaca3559a0df88d627874722105909281ba5e7bfd190eaa92",
+        "site\\styles.css": "8eea443e5577c2500e3990e9e4567a488cee90b6288cccea9de319ae75a9b298",
+        "content\\copy.md": "9d95eab10bd6f2e2493fec285da1238e1679bd2d311405eb15228f552213606c",
+        "brief\\FACTS.md": "539c675b82755d5635b7f24d3f6d710b599a32403450e42c90a60e1643d6b150",
+        "brief\\LOGOS.md": "60adecc23f39631667e2b426e70628b488983950de5068ce8bf273eb532c018b"
+      },
+      "after": {
+        "site\\assets\\company-grid.svg": "1cf999d3b685c470914b61bea668f3e5fed0fb7044e18c334511e292edb6cd11",
+        "site\\assets\\logos\\afterglow.png": "c38adeb53dde755ac7bf5a58a4dce7dd7c0fdea4e8dfc1a5b7ee2b893ea875ce",
+        "site\\assets\\logos\\arcade\\clash.png": "e5bb1a999e0a60f2f5bf77a7560994a47ee3bb9d7f448a41b9cf5ef9bcf917e8",
+        "site\\assets\\logos\\arcade\\duo.png": "b2a6185523cf2b2940a7d5b8247d8a0e183599499002529794f8e5d155cdf730",
+        "site\\assets\\logos\\arcade\\poker.png": "ab69286d4466e0ab21262cd00d576990d41843921af891085c929a75c1644c23",
+        "site\\assets\\logos\\arcade\\pool.png": "f207c366600e017a03018c722c49fcf384dbd4a8c03d680e71ec6b2151ece35e",
+        "site\\assets\\logos\\arcade\\swarm.png": "6d90fce16f2db7fcb5aa6cda700cf409d29f0d759b301f62e2c8f51bcd246190",
+        "site\\assets\\logos\\arcade\\world.png": "8bd0a08116fdd46ae059432cc57ebca52f06bb5f8600447a2b708a28be073f89",
+        "site\\assets\\logos\\chainlens.png": "46206da6dd0bbd657459c2438e3b988734aef91547e45639b13103144f419250",
+        "site\\assets\\logos\\magic-money-icon.svg": "d211174a70845de30dc68cb69433eceaafb9228f0871a7737aa4d19350af28e6",
+        "site\\assets\\logos\\magic-money.png": "58216078a4fdbd4d1fd9e64889249317fcbfa171a3c668f0a377d76d1a12853b",
+        "site\\assets\\mancave-trimmed-transparent.png": "b87178331329dabdf0f2e1559bef8cb9e7a56ac82b56aaacadcd7a0073afbd5a",
+        "site\\index.html": "e39fb07e16208675fd95d171271ae27daea378b8da77942a2a64a091c08b9061",
+        "site\\main.js": "f646ea618565676aaca3559a0df88d627874722105909281ba5e7bfd190eaa92",
+        "site\\styles.css": "8eea443e5577c2500e3990e9e4567a488cee90b6288cccea9de319ae75a9b298",
+        "content\\copy.md": "9d95eab10bd6f2e2493fec285da1238e1679bd2d311405eb15228f552213606c",
+        "brief\\FACTS.md": "539c675b82755d5635b7f24d3f6d710b599a32403450e42c90a60e1643d6b150",
+        "brief\\LOGOS.md": "60adecc23f39631667e2b426e70628b488983950de5068ce8bf273eb532c018b"
+      }
+    }
+  }
+]

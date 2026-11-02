@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>Company architectural field</title>
+  <desc>Original quiet rectangular grid with a blue offset plane; decorative background.</desc>
+  <rect width="1600" height="900" fill="#f5f7fa"/>
+  <g fill="none" stroke="#dfe5ed" stroke-width="1">
+    <path d="M800 0v900M960 0v900M1120 0v900M1280 0v900M1440 0v900M800 130h800M800 290h800M800 450h800M800 610h800M800 770h800"/>
+    <path d="M960 290h320v320H960zM1120 130h320v320h-320z" stroke="#0033b9" stroke-opacity=".18"/>
+  </g>
+  <path d="M1280 450h160v160h-160z" fill="#0033b9" fill-opacity=".05"/>
+</svg>

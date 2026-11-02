@@ -1,0 +1,251 @@
+{
+  "clean": {
+    "width": 689,
+    "height": 869,
+    "crop": [
+      283,
+      151,
+      971,
+      1019
+    ],
+    "unchangedInteriorPixels": 248499,
+    "unmattedEdgePixels": 10344,
+    "alpha": {
+      "clear": 339898,
+      "partial": 10344,
+      "opaque": 248499,
+      "visibleWhitePixels": 0
+    }
+  },
+  "loaded": [
+    {
+      "src": "../assets/generated/mancave-trimmed-transparent.png",
+      "width": 689,
+      "height": 869
+    },
+    {
+      "src": "../assets/generated/mancave-trimmed-transparent.png",
+      "width": 689,
+      "height": 869
+    },
+    {
+      "src": "../assets/generated/mancave-trimmed-transparent.png",
+      "width": 689,
+      "height": 869
+    },
+    {
+      "src": "../assets/logos/chainlens.png",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "src": "../assets/logos/magic-money.png",
+      "width": 1400,
+      "height": 560
+    },
+    {
+      "src": "../assets/logos/magic-money-icon.svg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "src": "../assets/logos/afterglow.png",
+      "width": 3850,
+      "height": 830
+    },
+    {
+      "src": "../assets/logos/arcade/duo.png",
+      "width": 763,
+      "height": 900
+    },
+    {
+      "src": "../assets/logos/arcade/poker.png",
+      "width": 4166,
+      "height": 4166
+    },
+    {
+      "src": "../assets/logos/arcade/pool.png",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "src": "../assets/logos/arcade/swarm.png",
+      "width": 1000,
+      "height": 325
+    },
+    {
+      "src": "../assets/logos/arcade/clash.png",
+      "width": 2060,
+      "height": 763
+    },
+    {
+      "src": "../assets/logos/arcade/world.png",
+      "width": 1200,
+      "height": 624
+    },
+    {
+      "src": "../assets/generated/company-grid.svg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "src": "../assets/generated/chainlens-panel.svg",
+      "width": 1200,
+      "height": 720
+    },
+    {
+      "src": "../assets/generated/magic-money-panel.svg",
+      "width": 1200,
+      "height": 720
+    }
+  ],
+  "layout": [
+    {
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "overflow": false
+    }
+  ],
+  "originals": [
+    {
+      "file": "mancave.png",
+      "sha256": "dd96164ac3fcd5335e96da168b345499cb9db7da3e575776eb6c80dcac57d55e",
+      "unchanged": true
+    },
+    {
+      "file": "chainlens.png",
+      "sha256": "46206da6dd0bbd657459c2438e3b988734aef91547e45639b13103144f419250",
+      "unchanged": true
+    },
+    {
+      "file": "magic-money.png",
+      "sha256": "58216078a4fdbd4d1fd9e64889249317fcbfa171a3c668f0a377d76d1a12853b",
+      "unchanged": true
+    },
+    {
+      "file": "magic-money-icon.svg",
+      "sha256": "d211174a70845de30dc68cb69433eceaafb9228f0871a7737aa4d19350af28e6",
+      "unchanged": true
+    },
+    {
+      "file": "afterglow.png",
+      "sha256": "c38adeb53dde755ac7bf5a58a4dce7dd7c0fdea4e8dfc1a5b7ee2b893ea875ce",
+      "unchanged": true
+    },
+    {
+      "file": "arcade/duo.png",
+      "sha256": "b2a6185523cf2b2940a7d5b8247d8a0e183599499002529794f8e5d155cdf730",
+      "unchanged": true
+    },
+    {
+      "file": "arcade/poker.png",
+      "sha256": "ab69286d4466e0ab21262cd00d576990d41843921af891085c929a75c1644c23",
+      "unchanged": true
+    },
+    {
+      "file": "arcade/pool.png",
+      "sha256": "f207c366600e017a03018c722c49fcf384dbd4a8c03d680e71ec6b2151ece35e",
+      "unchanged": true
+    },
+    {
+      "file": "arcade/swarm.png",
+      "sha256": "6d90fce16f2db7fcb5aa6cda700cf409d29f0d759b301f62e2c8f51bcd246190",
+      "unchanged": true
+    },
+    {
+      "file": "arcade/clash.png",
+      "sha256": "e5bb1a999e0a60f2f5bf77a7560994a47ee3bb9d7f448a41b9cf5ef9bcf917e8",
+      "unchanged": true
+    },
+    {
+      "file": "arcade/world.png",
+      "sha256": "8bd0a08116fdd46ae059432cc57ebca52f06bb5f8600447a2b708a28be073f89",
+      "unchanged": true
+    }
+  ],
+  "contrast": [
+    {
+      "fg": "#0033b9",
+      "bg": "#ffffff",
+      "ratio": 9.66
+    },
+    {
+      "fg": "#0033b9",
+      "bg": "#f5f7fa",
+      "ratio": 9
+    },
+    {
+      "fg": "#182230",
+      "bg": "#ffffff",
+      "ratio": 16.03
+    },
+    {
+      "fg": "#526071",
+      "bg": "#ffffff",
+      "ratio": 6.42
+    },
+    {
+      "fg": "#526071",
+      "bg": "#f5f7fa",
+      "ratio": 5.98
+    },
+    {
+      "fg": "#ffffff",
+      "bg": "#101827",
+      "ratio": 17.77
+    },
+    {
+      "fg": "#5ce1e6",
+      "bg": "#101827",
+      "ratio": 11.31
+    },
+    {
+      "fg": "#534ade",
+      "bg": "#ffffff",
+      "ratio": 6.17
+    },
+    {
+      "fg": "#0033b9",
+      "bg": "#101827",
+      "ratio": 1.84
+    },
+    {
+      "fg": "#e9e9e9",
+      "bg": "#000000",
+      "ratio": 17.3
+    },
+    {
+      "fg": "#62fad3",
+      "bg": "#101827",
+      "ratio": 13.65
+    },
+    {
+      "fg": "#ffce66",
+      "bg": "#101827",
+      "ratio": 12.07
+    },
+    {
+      "fg": "#7a8799",
+      "bg": "#ffffff",
+      "ratio": 3.65
+    },
+    {
+      "fg": "#7a8799",
+      "bg": "#101827",
+      "ratio": 4.87
+    }
+  ],
+  "errors": [],
+  "external": []
+}

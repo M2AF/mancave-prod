@@ -1,0 +1,1276 @@
+[
+  {
+    "file": "mancave.png",
+    "width": 1254,
+    "height": 1254,
+    "transparentPixels": 0,
+    "topOpaque": [
+      {
+        "hex": "#fefefe",
+        "count": 677614
+      },
+      {
+        "hex": "#ffffff",
+        "count": 172147
+      },
+      {
+        "hex": "#fffefe",
+        "count": 120409
+      },
+      {
+        "hex": "#fdfdfd",
+        "count": 95622
+      },
+      {
+        "hex": "#fefdfd",
+        "count": 88218
+      },
+      {
+        "hex": "#0033b9",
+        "count": 29357
+      },
+      {
+        "hex": "#0034b9",
+        "count": 29183
+      },
+      {
+        "hex": "#0034ba",
+        "count": 28007
+      },
+      {
+        "hex": "#feffff",
+        "count": 25247
+      },
+      {
+        "hex": "#fffeff",
+        "count": 19230
+      },
+      {
+        "hex": "#fdfefe",
+        "count": 17146
+      },
+      {
+        "hex": "#0033b8",
+        "count": 16433
+      }
+    ],
+    "topChromatic": [
+      {
+        "hex": "#0033b9",
+        "count": 29357
+      },
+      {
+        "hex": "#0034b9",
+        "count": 29183
+      },
+      {
+        "hex": "#0034ba",
+        "count": 28007
+      },
+      {
+        "hex": "#0033b8",
+        "count": 16433
+      },
+      {
+        "hex": "#0033ba",
+        "count": 12345
+      },
+      {
+        "hex": "#0035ba",
+        "count": 11628
+      },
+      {
+        "hex": "#0034b8",
+        "count": 7694
+      },
+      {
+        "hex": "#0134ba",
+        "count": 6495
+      },
+      {
+        "hex": "#0035bb",
+        "count": 6404
+      },
+      {
+        "hex": "#0034bb",
+        "count": 5597
+      },
+      {
+        "hex": "#0134b9",
+        "count": 5507
+      },
+      {
+        "hex": "#0135ba",
+        "count": 4711
+      }
+    ],
+    "hueModes": {},
+    "chromaticBounds": [
+      285,
+      154,
+      969,
+      1016
+    ],
+    "sha256": "dd96164ac3fcd5335e96da168b345499cb9db7da3e575776eb6c80dcac57d55e"
+  },
+  {
+    "file": "chainlens.png",
+    "width": 1000,
+    "height": 1000,
+    "transparentPixels": 0,
+    "topOpaque": [
+      {
+        "hex": "#000000",
+        "count": 692224
+      },
+      {
+        "hex": "#e9e9e9",
+        "count": 147700
+      },
+      {
+        "hex": "#ffffff",
+        "count": 108740
+      },
+      {
+        "hex": "#e8e8e8",
+        "count": 4497
+      },
+      {
+        "hex": "#e7e7e7",
+        "count": 3090
+      },
+      {
+        "hex": "#ebebeb",
+        "count": 2367
+      },
+      {
+        "hex": "#ececec",
+        "count": 2325
+      },
+      {
+        "hex": "#e6e6e6",
+        "count": 2324
+      },
+      {
+        "hex": "#e5e5e5",
+        "count": 2154
+      },
+      {
+        "hex": "#eaeaea",
+        "count": 2127
+      },
+      {
+        "hex": "#e3e3e3",
+        "count": 1975
+      },
+      {
+        "hex": "#e4e4e4",
+        "count": 1901
+      }
+    ],
+    "topChromatic": [],
+    "hueModes": {},
+    "chromaticBounds": [
+      1000,
+      1000,
+      0,
+      0
+    ],
+    "sha256": "46206da6dd0bbd657459c2438e3b988734aef91547e45639b13103144f419250"
+  },
+  {
+    "file": "magic-money.png",
+    "width": 1400,
+    "height": 560,
+    "transparentPixels": 770210,
+    "topOpaque": [
+      {
+        "hex": "#ffffff",
+        "count": 1398
+      },
+      {
+        "hex": "#62fad3",
+        "count": 3
+      },
+      {
+        "hex": "#2465f8",
+        "count": 3
+      },
+      {
+        "hex": "#2565f9",
+        "count": 3
+      },
+      {
+        "hex": "#2465f9",
+        "count": 3
+      },
+      {
+        "hex": "#2b75f5",
+        "count": 3
+      },
+      {
+        "hex": "#72f2dc",
+        "count": 2
+      },
+      {
+        "hex": "#61f6d7",
+        "count": 2
+      },
+      {
+        "hex": "#82fac0",
+        "count": 2
+      },
+      {
+        "hex": "#76f9c3",
+        "count": 2
+      },
+      {
+        "hex": "#98faba",
+        "count": 2
+      },
+      {
+        "hex": "#a3f9b2",
+        "count": 2
+      }
+    ],
+    "topChromatic": [
+      {
+        "hex": "#62fad3",
+        "count": 3
+      },
+      {
+        "hex": "#2465f8",
+        "count": 3
+      },
+      {
+        "hex": "#2565f9",
+        "count": 3
+      },
+      {
+        "hex": "#2465f9",
+        "count": 3
+      },
+      {
+        "hex": "#2b75f5",
+        "count": 3
+      },
+      {
+        "hex": "#72f2dc",
+        "count": 2
+      },
+      {
+        "hex": "#61f6d7",
+        "count": 2
+      },
+      {
+        "hex": "#82fac0",
+        "count": 2
+      },
+      {
+        "hex": "#76f9c3",
+        "count": 2
+      },
+      {
+        "hex": "#98faba",
+        "count": 2
+      },
+      {
+        "hex": "#a3f9b2",
+        "count": 2
+      },
+      {
+        "hex": "#3ba6ec",
+        "count": 2
+      }
+    ],
+    "hueModes": {
+      "green": {
+        "hex": "#62fad3",
+        "count": 3
+      }
+    },
+    "chromaticBounds": [
+      175,
+      216,
+      289,
+      345
+    ],
+    "sha256": "58216078a4fdbd4d1fd9e64889249317fcbfa171a3c668f0a377d76d1a12853b"
+  },
+  {
+    "file": "magic-money-icon.svg",
+    "width": 1000,
+    "height": 1000,
+    "transparentPixels": 759320,
+    "topOpaque": [
+      {
+        "hex": "#2567fa",
+        "count": 223
+      },
+      {
+        "hex": "#2566fa",
+        "count": 201
+      },
+      {
+        "hex": "#2466fa",
+        "count": 200
+      },
+      {
+        "hex": "#2668fa",
+        "count": 161
+      },
+      {
+        "hex": "#2467fa",
+        "count": 149
+      },
+      {
+        "hex": "#2466f9",
+        "count": 144
+      },
+      {
+        "hex": "#2568f9",
+        "count": 138
+      },
+      {
+        "hex": "#2567f9",
+        "count": 133
+      },
+      {
+        "hex": "#2568fa",
+        "count": 132
+      },
+      {
+        "hex": "#2668f9",
+        "count": 131
+      },
+      {
+        "hex": "#2465fa",
+        "count": 130
+      },
+      {
+        "hex": "#2667fa",
+        "count": 125
+      }
+    ],
+    "topChromatic": [
+      {
+        "hex": "#2567fa",
+        "count": 223
+      },
+      {
+        "hex": "#2566fa",
+        "count": 201
+      },
+      {
+        "hex": "#2466fa",
+        "count": 200
+      },
+      {
+        "hex": "#2668fa",
+        "count": 161
+      },
+      {
+        "hex": "#2467fa",
+        "count": 149
+      },
+      {
+        "hex": "#2466f9",
+        "count": 144
+      },
+      {
+        "hex": "#2568f9",
+        "count": 138
+      },
+      {
+        "hex": "#2567f9",
+        "count": 133
+      },
+      {
+        "hex": "#2568fa",
+        "count": 132
+      },
+      {
+        "hex": "#2668f9",
+        "count": 131
+      },
+      {
+        "hex": "#2465fa",
+        "count": 130
+      },
+      {
+        "hex": "#2667fa",
+        "count": 125
+      }
+    ],
+    "hueModes": {
+      "green": {
+        "hex": "#5ffacd",
+        "count": 63
+      }
+    },
+    "chromaticBounds": [
+      82,
+      11,
+      947,
+      978
+    ],
+    "sha256": "d211174a70845de30dc68cb69433eceaafb9228f0871a7737aa4d19350af28e6"
+  },
+  {
+    "file": "afterglow.png",
+    "width": 3850,
+    "height": 830,
+    "transparentPixels": 658118,
+    "topOpaque": [
+      {
+        "hex": "#000000",
+        "count": 1479680
+      },
+      {
+        "hex": "#534ade",
+        "count": 11972
+      },
+      {
+        "hex": "#6e4eee",
+        "count": 11660
+      },
+      {
+        "hex": "#4248d4",
+        "count": 11544
+      },
+      {
+        "hex": "#564be0",
+        "count": 11454
+      },
+      {
+        "hex": "#714ef0",
+        "count": 11000
+      },
+      {
+        "hex": "#764ff2",
+        "count": 10826
+      },
+      {
+        "hex": "#674dea",
+        "count": 10634
+      },
+      {
+        "hex": "#8451fb",
+        "count": 10291
+      },
+      {
+        "hex": "#3547cd",
+        "count": 10088
+      },
+      {
+        "hex": "#3d48d1",
+        "count": 10086
+      },
+      {
+        "hex": "#7b50f5",
+        "count": 9964
+      }
+    ],
+    "topChromatic": [
+      {
+        "hex": "#534ade",
+        "count": 11972
+      },
+      {
+        "hex": "#6e4eee",
+        "count": 11660
+      },
+      {
+        "hex": "#4248d4",
+        "count": 11544
+      },
+      {
+        "hex": "#564be0",
+        "count": 11454
+      },
+      {
+        "hex": "#714ef0",
+        "count": 11000
+      },
+      {
+        "hex": "#764ff2",
+        "count": 10826
+      },
+      {
+        "hex": "#674dea",
+        "count": 10634
+      },
+      {
+        "hex": "#8451fb",
+        "count": 10291
+      },
+      {
+        "hex": "#3547cd",
+        "count": 10088
+      },
+      {
+        "hex": "#3d48d1",
+        "count": 10086
+      },
+      {
+        "hex": "#7b50f5",
+        "count": 9964
+      },
+      {
+        "hex": "#1f44c0",
+        "count": 9734
+      }
+    ],
+    "hueModes": {
+      "warm": {
+        "hex": "#deb766",
+        "count": 7205
+      },
+      "violet": {
+        "hex": "#534ade",
+        "count": 11972
+      }
+    },
+    "chromaticBounds": [
+      29,
+      29,
+      3740,
+      502
+    ],
+    "sha256": "c38adeb53dde755ac7bf5a58a4dce7dd7c0fdea4e8dfc1a5b7ee2b893ea875ce"
+  },
+  {
+    "file": "arcade/duo.png",
+    "width": 763,
+    "height": 900,
+    "transparentPixels": 292930,
+    "topOpaque": [
+      {
+        "hex": "#ffa7e4",
+        "count": 149560
+      },
+      {
+        "hex": "#5ce1e6",
+        "count": 149232
+      },
+      {
+        "hex": "#ff66c4",
+        "count": 6964
+      },
+      {
+        "hex": "#b2edef",
+        "count": 6011
+      },
+      {
+        "hex": "#b1edef",
+        "count": 2739
+      },
+      {
+        "hex": "#5de1e6",
+        "count": 2450
+      },
+      {
+        "hex": "#ffa6e4",
+        "count": 2318
+      },
+      {
+        "hex": "#ff67c4",
+        "count": 2148
+      },
+      {
+        "hex": "#ffa6e3",
+        "count": 1753
+      },
+      {
+        "hex": "#b1ecee",
+        "count": 1430
+      },
+      {
+        "hex": "#5ce0e5",
+        "count": 1327
+      },
+      {
+        "hex": "#ff65c4",
+        "count": 1091
+      }
+    ],
+    "topChromatic": [
+      {
+        "hex": "#ffa7e4",
+        "count": 149560
+      },
+      {
+        "hex": "#5ce1e6",
+        "count": 149232
+      },
+      {
+        "hex": "#ff66c4",
+        "count": 6964
+      },
+      {
+        "hex": "#b2edef",
+        "count": 6011
+      },
+      {
+        "hex": "#b1edef",
+        "count": 2739
+      },
+      {
+        "hex": "#5de1e6",
+        "count": 2450
+      },
+      {
+        "hex": "#ffa6e4",
+        "count": 2318
+      },
+      {
+        "hex": "#ff67c4",
+        "count": 2148
+      },
+      {
+        "hex": "#ffa6e3",
+        "count": 1753
+      },
+      {
+        "hex": "#b1ecee",
+        "count": 1430
+      },
+      {
+        "hex": "#5ce0e5",
+        "count": 1327
+      },
+      {
+        "hex": "#ff65c4",
+        "count": 1091
+      }
+    ],
+    "hueModes": {
+      "pink": {
+        "hex": "#ff66c4",
+        "count": 6964
+      }
+    },
+    "chromaticBounds": [
+      1,
+      1,
+      761,
+      898
+    ],
+    "sha256": "b2a6185523cf2b2940a7d5b8247d8a0e183599499002529794f8e5d155cdf730"
+  },
+  {
+    "file": "arcade/poker.png",
+    "width": 4166,
+    "height": 4166,
+    "transparentPixels": 13042985,
+    "topOpaque": [
+      {
+        "hex": "#0c0059",
+        "count": 2291507
+      },
+      {
+        "hex": "#0f3222",
+        "count": 1439209
+      },
+      {
+        "hex": "#0094ff",
+        "count": 295731
+      },
+      {
+        "hex": "#14c876",
+        "count": 194342
+      },
+      {
+        "hex": "#0e3221",
+        "count": 550
+      },
+      {
+        "hex": "#0b0058",
+        "count": 544
+      },
+      {
+        "hex": "#13c775",
+        "count": 506
+      },
+      {
+        "hex": "#0e3121",
+        "count": 361
+      },
+      {
+        "hex": "#0093ff",
+        "count": 360
+      },
+      {
+        "hex": "#13c875",
+        "count": 359
+      },
+      {
+        "hex": "#0b0159",
+        "count": 357
+      },
+      {
+        "hex": "#0b055e",
+        "count": 339
+      }
+    ],
+    "topChromatic": [
+      {
+        "hex": "#0c0059",
+        "count": 2291507
+      },
+      {
+        "hex": "#0094ff",
+        "count": 295731
+      },
+      {
+        "hex": "#14c876",
+        "count": 194342
+      },
+      {
+        "hex": "#0b0058",
+        "count": 544
+      },
+      {
+        "hex": "#13c775",
+        "count": 506
+      },
+      {
+        "hex": "#0093ff",
+        "count": 360
+      },
+      {
+        "hex": "#13c875",
+        "count": 359
+      },
+      {
+        "hex": "#0b0159",
+        "count": 357
+      },
+      {
+        "hex": "#0b055e",
+        "count": 339
+      },
+      {
+        "hex": "#0093fe",
+        "count": 327
+      },
+      {
+        "hex": "#13bc6f",
+        "count": 290
+      },
+      {
+        "hex": "#13c574",
+        "count": 280
+      }
+    ],
+    "hueModes": {
+      "violet": {
+        "hex": "#0c0059",
+        "count": 2291507
+      },
+      "green": {
+        "hex": "#14c876",
+        "count": 194342
+      }
+    },
+    "chromaticBounds": [
+      594,
+      682,
+      3594,
+      3442
+    ],
+    "sha256": "ab69286d4466e0ab21262cd00d576990d41843921af891085c929a75c1644c23"
+  },
+  {
+    "file": "arcade/pool.png",
+    "width": 1536,
+    "height": 1024,
+    "transparentPixels": 991135,
+    "topOpaque": [
+      {
+        "hex": "#000000",
+        "count": 4058
+      },
+      {
+        "hex": "#010000",
+        "count": 1207
+      },
+      {
+        "hex": "#fcfefe",
+        "count": 1075
+      },
+      {
+        "hex": "#fbfefe",
+        "count": 1014
+      },
+      {
+        "hex": "#fafefe",
+        "count": 961
+      },
+      {
+        "hex": "#fdfefe",
+        "count": 883
+      },
+      {
+        "hex": "#f9fefe",
+        "count": 764
+      },
+      {
+        "hex": "#000001",
+        "count": 698
+      },
+      {
+        "hex": "#f8fefe",
+        "count": 544
+      },
+      {
+        "hex": "#010100",
+        "count": 541
+      },
+      {
+        "hex": "#f7fefe",
+        "count": 488
+      },
+      {
+        "hex": "#ffffff",
+        "count": 463
+      }
+    ],
+    "topChromatic": [
+      {
+        "hex": "#00c0fd",
+        "count": 193
+      },
+      {
+        "hex": "#00d5fe",
+        "count": 168
+      },
+      {
+        "hex": "#00defe",
+        "count": 162
+      },
+      {
+        "hex": "#00e6fe",
+        "count": 161
+      },
+      {
+        "hex": "#00d5fd",
+        "count": 159
+      },
+      {
+        "hex": "#00dcfe",
+        "count": 155
+      },
+      {
+        "hex": "#00dbfe",
+        "count": 154
+      },
+      {
+        "hex": "#00d3fd",
+        "count": 151
+      },
+      {
+        "hex": "#00c0fe",
+        "count": 150
+      },
+      {
+        "hex": "#00d6fe",
+        "count": 148
+      },
+      {
+        "hex": "#00d4fd",
+        "count": 145
+      },
+      {
+        "hex": "#00e1fe",
+        "count": 144
+      }
+    ],
+    "hueModes": {
+      "violet": {
+        "hex": "#7300a0",
+        "count": 5
+      },
+      "warm": {
+        "hex": "#dd903f",
+        "count": 10
+      },
+      "green": {
+        "hex": "#488e81",
+        "count": 1
+      },
+      "pink": {
+        "hex": "#440030",
+        "count": 5
+      }
+    },
+    "chromaticBounds": [
+      77,
+      89,
+      1457,
+      940
+    ],
+    "sha256": "f207c366600e017a03018c722c49fcf384dbd4a8c03d680e71ec6b2151ece35e"
+  },
+  {
+    "file": "arcade/swarm.png",
+    "width": 1000,
+    "height": 325,
+    "transparentPixels": 82093,
+    "topOpaque": [
+      {
+        "hex": "#0fb8ce",
+        "count": 142042
+      },
+      {
+        "hex": "#580da3",
+        "count": 56851
+      },
+      {
+        "hex": "#0fb7ce",
+        "count": 1924
+      },
+      {
+        "hex": "#0fb7cd",
+        "count": 1461
+      },
+      {
+        "hex": "#580ea3",
+        "count": 1296
+      },
+      {
+        "hex": "#10b5cd",
+        "count": 1178
+      },
+      {
+        "hex": "#5710a4",
+        "count": 1158
+      },
+      {
+        "hex": "#10b6cd",
+        "count": 1057
+      },
+      {
+        "hex": "#570fa4",
+        "count": 1049
+      },
+      {
+        "hex": "#570fa3",
+        "count": 846
+      },
+      {
+        "hex": "#10b6ce",
+        "count": 823
+      },
+      {
+        "hex": "#570ea3",
+        "count": 641
+      }
+    ],
+    "topChromatic": [
+      {
+        "hex": "#0fb8ce",
+        "count": 142042
+      },
+      {
+        "hex": "#580da3",
+        "count": 56851
+      },
+      {
+        "hex": "#0fb7ce",
+        "count": 1924
+      },
+      {
+        "hex": "#0fb7cd",
+        "count": 1461
+      },
+      {
+        "hex": "#580ea3",
+        "count": 1296
+      },
+      {
+        "hex": "#10b5cd",
+        "count": 1178
+      },
+      {
+        "hex": "#5710a4",
+        "count": 1158
+      },
+      {
+        "hex": "#10b6cd",
+        "count": 1057
+      },
+      {
+        "hex": "#570fa4",
+        "count": 1049
+      },
+      {
+        "hex": "#570fa3",
+        "count": 846
+      },
+      {
+        "hex": "#10b6ce",
+        "count": 823
+      },
+      {
+        "hex": "#570ea3",
+        "count": 641
+      }
+    ],
+    "hueModes": {
+      "violet": {
+        "hex": "#580da3",
+        "count": 56851
+      }
+    },
+    "chromaticBounds": [
+      13,
+      13,
+      986,
+      310
+    ],
+    "sha256": "6d90fce16f2db7fcb5aa6cda700cf409d29f0d759b301f62e2c8f51bcd246190"
+  },
+  {
+    "file": "arcade/clash.png",
+    "width": 2060,
+    "height": 763,
+    "transparentPixels": 967163,
+    "topOpaque": [
+      {
+        "hex": "#ffffff",
+        "count": 10943
+      },
+      {
+        "hex": "#fdfdfd",
+        "count": 5546
+      },
+      {
+        "hex": "#fcfcfc",
+        "count": 5091
+      },
+      {
+        "hex": "#fbfbfb",
+        "count": 4111
+      },
+      {
+        "hex": "#fafafa",
+        "count": 3109
+      },
+      {
+        "hex": "#f9f9f9",
+        "count": 2562
+      },
+      {
+        "hex": "#f8f8f8",
+        "count": 2199
+      },
+      {
+        "hex": "#f7f7f7",
+        "count": 1699
+      },
+      {
+        "hex": "#020e2d",
+        "count": 1650
+      },
+      {
+        "hex": "#020f30",
+        "count": 1565
+      },
+      {
+        "hex": "#020e2e",
+        "count": 1515
+      },
+      {
+        "hex": "#020f2f",
+        "count": 1514
+      }
+    ],
+    "topChromatic": [
+      {
+        "hex": "#00f4fc",
+        "count": 610
+      },
+      {
+        "hex": "#00f5fc",
+        "count": 578
+      },
+      {
+        "hex": "#00f6fc",
+        "count": 426
+      },
+      {
+        "hex": "#00f3fc",
+        "count": 409
+      },
+      {
+        "hex": "#01f5fc",
+        "count": 402
+      },
+      {
+        "hex": "#01f3fc",
+        "count": 347
+      },
+      {
+        "hex": "#01f4fc",
+        "count": 334
+      },
+      {
+        "hex": "#01f1fc",
+        "count": 333
+      },
+      {
+        "hex": "#01f0fc",
+        "count": 324
+      },
+      {
+        "hex": "#02193f",
+        "count": 317
+      },
+      {
+        "hex": "#003ffc",
+        "count": 316
+      },
+      {
+        "hex": "#01f5fd",
+        "count": 309
+      }
+    ],
+    "hueModes": {
+      "violet": {
+        "hex": "#01009d",
+        "count": 8
+      }
+    },
+    "chromaticBounds": [
+      34,
+      43,
+      2017,
+      668
+    ],
+    "sha256": "e5bb1a999e0a60f2f5bf77a7560994a47ee3bb9d7f448a41b9cf5ef9bcf917e8"
+  },
+  {
+    "file": "arcade/world.png",
+    "width": 1200,
+    "height": 624,
+    "transparentPixels": 245774,
+    "topOpaque": [
+      {
+        "hex": "#5ce1e6",
+        "count": 191142
+      },
+      {
+        "hex": "#0f3222",
+        "count": 93078
+      },
+      {
+        "hex": "#b2edef",
+        "count": 9574
+      },
+      {
+        "hex": "#b1edef",
+        "count": 3176
+      },
+      {
+        "hex": "#5de1e6",
+        "count": 2905
+      },
+      {
+        "hex": "#0f3423",
+        "count": 1971
+      },
+      {
+        "hex": "#b1ecee",
+        "count": 1265
+      },
+      {
+        "hex": "#5ce0e5",
+        "count": 1111
+      },
+      {
+        "hex": "#0f3323",
+        "count": 1029
+      },
+      {
+        "hex": "#103524",
+        "count": 979
+      },
+      {
+        "hex": "#b8eef0",
+        "count": 943
+      },
+      {
+        "hex": "#56e0e5",
+        "count": 915
+      }
+    ],
+    "topChromatic": [
+      {
+        "hex": "#5ce1e6",
+        "count": 191142
+      },
+      {
+        "hex": "#b2edef",
+        "count": 9574
+      },
+      {
+        "hex": "#b1edef",
+        "count": 3176
+      },
+      {
+        "hex": "#5de1e6",
+        "count": 2905
+      },
+      {
+        "hex": "#b1ecee",
+        "count": 1265
+      },
+      {
+        "hex": "#5ce0e5",
+        "count": 1111
+      },
+      {
+        "hex": "#56e0e5",
+        "count": 915
+      },
+      {
+        "hex": "#5be1e6",
+        "count": 553
+      },
+      {
+        "hex": "#5be0e5",
+        "count": 530
+      },
+      {
+        "hex": "#57e0e5",
+        "count": 518
+      },
+      {
+        "hex": "#14c474",
+        "count": 511
+      },
+      {
+        "hex": "#14d27c",
+        "count": 506
+      }
+    ],
+    "hueModes": {
+      "green": {
+        "hex": "#14c474",
+        "count": 511
+      },
+      "warm": {
+        "hex": "#bc9d76",
+        "count": 12
+      }
+    },
+    "chromaticBounds": [
+      30,
+      13,
+      1166,
+      607
+    ],
+    "sha256": "8bd0a08116fdd46ae059432cc57ebca52f06bb5f8600447a2b708a28be073f89"
+  }
+]

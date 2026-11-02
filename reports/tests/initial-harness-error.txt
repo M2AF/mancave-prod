@@ -1,0 +1,5 @@
+page.goto: Navigation to "http://127.0.0.1:55775/#afterglow" is interrupted by another navigation to "chrome-error://chromewebdata/"
+Call log:
+[2m  - navigating to "http://127.0.0.1:55775/#afterglow", waiting until "load"[22m
+
+    at C:\Users\balla\Documents\mancave-productions\reports\tests\run-tests.cjs:74:15

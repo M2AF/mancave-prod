@@ -1,0 +1,2817 @@
+[
+  {
+    "width": 1440,
+    "view": "home",
+    "groups": [
+      {
+        "class": "product-index",
+        "gap": "64px 48px",
+        "rows": "64px",
+        "columns": "616px 616px",
+        "children": [
+          {
+            "text": "ChainLens\n              Search the web and explore onchain activity in one place",
+            "x": 80,
+            "y": 793.453125,
+            "width": 616,
+            "height": 473.1875,
+            "bottom": 1266.640625
+          },
+          {
+            "text": "Magic Money Wallet\n              A self-custody, multi-chain crypto wallet, by C",
+            "x": 744,
+            "y": 793.453125,
+            "width": 616,
+            "height": 473.1875,
+            "bottom": 1266.640625
+          },
+          {
+            "text": "AfterGlow\n              Create, curate, generate, publish and manage NFT collect",
+            "x": 80,
+            "y": 1330.640625,
+            "width": 616,
+            "height": 473.1875,
+            "bottom": 1803.828125
+          },
+          {
+            "text": "DUO\n                \n                \n                  \n                  Swarm",
+            "x": 744,
+            "y": 1330.640625,
+            "width": 616,
+            "height": 473.1875,
+            "bottom": 1803.828125
+          }
+        ]
+      }
+    ],
+    "identity": [
+      {
+        "tag": "FIGCAPTION",
+        "class": "",
+        "text": "DUO",
+        "display": "block",
+        "x": 950.078125,
+        "y": 1526.125,
+        "width": 32.65625,
+        "height": 21,
+        "bottom": 1547.125
+      },
+      {
+        "tag": "FIGCAPTION",
+        "class": "",
+        "text": "Swarm",
+        "display": "block",
+        "x": 1123.84375,
+        "y": 1526.125,
+        "width": 46.015625,
+        "height": 21,
+        "bottom": 1547.125
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 276,
+        "y": 825.453125,
+        "width": 224,
+        "height": 224,
+        "bottom": 1049.453125
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 940,
+        "y": 825.453125,
+        "width": 224,
+        "height": 224,
+        "bottom": 1049.453125
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 104,
+        "y": 1413.421875,
+        "width": 568,
+        "height": 122.4375,
+        "bottom": 1535.859375
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 851.546875,
+        "y": 1454.640625,
+        "width": 40,
+        "height": 40,
+        "bottom": 1494.640625
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 915.546875,
+        "y": 1402.15625,
+        "width": 101.703125,
+        "height": 119.96875,
+        "bottom": 1522.125
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 1033.28125,
+        "y": 1448.296875,
+        "width": 227.15625,
+        "height": 73.828125,
+        "bottom": 1522.125
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "view": "magic-money",
+    "groups": [
+      {
+        "class": "hero hero--stacked",
+        "gap": "48px",
+        "rows": "48px",
+        "columns": "62.6562px 62.6562px 62.6562px 62.6562px 62.6562px 62.6562px 62.6562px 62.6562px 62.6562px 62.6562px 62.6562px 62.6562px",
+        "children": [
+          {
+            "text": "Magic Money Wallet\n              \n              One self-custody wallet for many",
+            "x": 80,
+            "y": 227.09375,
+            "width": 726.65625,
+            "height": 167.96875,
+            "bottom": 395.0625
+          },
+          {
+            "text": "Magic Money Wallet is a self-custody, multi-chain crypto wallet, made by ChainLe",
+            "x": 854.65625,
+            "y": 161,
+            "width": 505.34375,
+            "height": 234.0625,
+            "bottom": 395.0625
+          }
+        ]
+      },
+      {
+        "class": "feature-list",
+        "gap": "32px",
+        "rows": "32px",
+        "columns": "394.672px 394.672px",
+        "children": [
+          {
+            "text": "Many networks, one seed phrase\n              One seed phrase covers 24 default m",
+            "x": 538.65625,
+            "y": 836.0625,
+            "width": 394.671875,
+            "height": 212.5625,
+            "bottom": 1048.625
+          },
+          {
+            "text": "Self-custody by design\n              The recovery phrase is encrypted at rest, a",
+            "x": 965.328125,
+            "y": 836.0625,
+            "width": 394.671875,
+            "height": 212.5625,
+            "bottom": 1048.625
+          },
+          {
+            "text": "Built-in swaps\n              Same-chain and cross-chain swaps are built in. Avai",
+            "x": 538.65625,
+            "y": 1080.625,
+            "width": 394.671875,
+            "height": 110.1875,
+            "bottom": 1190.8125
+          },
+          {
+            "text": "dApp browser\n              Connect to dApps, with Magic Guard ad blocking and a ",
+            "x": 965.328125,
+            "y": 1080.625,
+            "width": 394.671875,
+            "height": 110.1875,
+            "bottom": 1190.8125
+          },
+          {
+            "text": "Privacy Mode and Testnet Mode\n              Switch on Privacy Mode, or use Testn",
+            "x": 538.65625,
+            "y": 1222.8125,
+            "width": 394.671875,
+            "height": 114.59375,
+            "bottom": 1337.40625
+          },
+          {
+            "text": "Multi-account support and art themes\n              Use more than one account, an",
+            "x": 965.328125,
+            "y": 1222.8125,
+            "width": 394.671875,
+            "height": 114.59375,
+            "bottom": 1337.40625
+          },
+          {
+            "text": "Biometric unlock\n              Unlock with Windows Hello, Touch ID or Android bi",
+            "x": 538.65625,
+            "y": 1369.40625,
+            "width": 394.671875,
+            "height": 110.1875,
+            "bottom": 1479.59375
+          },
+          {
+            "text": "Available as\n              A desktop app (Windows, macOS, Linux), a Chrome exten",
+            "x": 965.328125,
+            "y": 1369.40625,
+            "width": 394.671875,
+            "height": 110.1875,
+            "bottom": 1479.59375
+          }
+        ]
+      }
+    ],
+    "identity": [
+      {
+        "tag": "P",
+        "class": "eyebrow product-identity",
+        "text": "Magic Money Wallet",
+        "display": "block",
+        "x": 80,
+        "y": 227.09375,
+        "width": 435.4375,
+        "height": 18,
+        "bottom": 245.09375
+      },
+      {
+        "tag": "IMG",
+        "class": "product-identity__icon",
+        "text": "",
+        "display": "none",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      },
+      {
+        "tag": "DIV",
+        "class": "wordmark",
+        "text": "",
+        "display": "flow-root",
+        "x": 220,
+        "y": 443.0625,
+        "width": 1000,
+        "height": 200,
+        "bottom": 643.0625
+      },
+      {
+        "tag": "IMG",
+        "class": "",
+        "text": "",
+        "display": "block",
+        "x": 220,
+        "y": 343.0625,
+        "width": 1000,
+        "height": 400,
+        "bottom": 743.0625
+      }
+    ],
+    "images": [
+      {
+        "alt": "Magic Money logo",
+        "loaded": true,
+        "x": 220,
+        "y": 343.0625,
+        "width": 1000,
+        "height": 400,
+        "bottom": 743.0625
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "view": "arcade",
+    "groups": [
+      {
+        "class": "hero hero--stacked",
+        "gap": "48px",
+        "rows": "48px",
+        "columns": "62.6562px 62.6562px 62.6562px 62.6562px 62.6562px 62.6562px 62.6562px 62.6562px 62.6562px 62.6562px 62.6562px 62.6562px",
+        "children": [
+          {
+            "text": "ChainLens Arcade\n              \n              Free multiplayer games in your bro",
+            "x": 80,
+            "y": 161,
+            "width": 726.65625,
+            "height": 213.96875,
+            "bottom": 374.96875
+          },
+          {
+            "text": "ChainLens Arcade has six games you can play with friends or bots, right in your ",
+            "x": 854.65625,
+            "y": 182.046875,
+            "width": 505.34375,
+            "height": 192.921875,
+            "bottom": 374.96875
+          }
+        ]
+      },
+      {
+        "class": "game-grid",
+        "gap": "64px 48px",
+        "rows": "64px",
+        "columns": "394.656px 394.672px 394.656px",
+        "children": [
+          {
+            "text": "DUO\n              A free card game. Team up and share one hand, or go SOLO with ",
+            "x": 80,
+            "y": 646.875,
+            "width": 394.65625,
+            "height": 382.78125,
+            "bottom": 1029.65625
+          },
+          {
+            "text": "Poker\n              Texas Hold'em and Blackjack with friends and bots, using fre",
+            "x": 522.65625,
+            "y": 646.875,
+            "width": 394.671875,
+            "height": 382.78125,
+            "bottom": 1029.65625
+          },
+          {
+            "text": "Pool\n              3D 8-ball with friends and bots. Play solo head to head, or D",
+            "x": 965.328125,
+            "y": 646.875,
+            "width": 394.65625,
+            "height": 382.78125,
+            "bottom": 1029.65625
+          },
+          {
+            "text": "Swarm\n              Pick a hero and survive a growing horde. Co-op for 2 to 4 pl",
+            "x": 80,
+            "y": 1093.65625,
+            "width": 394.65625,
+            "height": 357.1875,
+            "bottom": 1450.84375
+          },
+          {
+            "text": "Clash\n              A platform fighter. Rack up damage and launch your rivals of",
+            "x": 522.65625,
+            "y": 1093.65625,
+            "width": 394.671875,
+            "height": 357.1875,
+            "bottom": 1450.84375
+          },
+          {
+            "text": "World\n              An open-world adventure. Explore, fight monsters, loot, trad",
+            "x": 965.328125,
+            "y": 1093.65625,
+            "width": 394.65625,
+            "height": 357.1875,
+            "bottom": 1450.84375
+          }
+        ]
+      }
+    ],
+    "identity": [],
+    "images": [
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 88,
+        "y": 169,
+        "width": 40,
+        "height": 40,
+        "bottom": 209
+      },
+      {
+        "alt": "DUO logo",
+        "loaded": true,
+        "x": 195.9375,
+        "y": 670.890625,
+        "width": 162.765625,
+        "height": 191.984375,
+        "bottom": 862.875
+      },
+      {
+        "alt": "Poker logo",
+        "loaded": true,
+        "x": 623.984375,
+        "y": 670.875,
+        "width": 192,
+        "height": 192,
+        "bottom": 862.875
+      },
+      {
+        "alt": "Pool logo",
+        "loaded": true,
+        "x": 1018.65625,
+        "y": 670.875,
+        "width": 288,
+        "height": 192,
+        "bottom": 862.875
+      },
+      {
+        "alt": "Swarm logo",
+        "loaded": true,
+        "x": 105,
+        "y": 1157.65625,
+        "width": 344.65625,
+        "height": 112,
+        "bottom": 1269.65625
+      },
+      {
+        "alt": "Clash logo",
+        "loaded": true,
+        "x": 547.65625,
+        "y": 1149.828125,
+        "width": 344.671875,
+        "height": 127.65625,
+        "bottom": 1277.484375
+      },
+      {
+        "alt": "World logo",
+        "loaded": true,
+        "x": 990.328125,
+        "y": 1124.046875,
+        "width": 344.65625,
+        "height": 179.21875,
+        "bottom": 1303.265625
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "view": "home",
+    "groups": [
+      {
+        "class": "product-index",
+        "gap": "64px 48px",
+        "rows": "64px",
+        "columns": "440px 440px",
+        "children": [
+          {
+            "text": "ChainLens\n              Search the web and explore onchain activity in one place",
+            "x": 48,
+            "y": 879.953125,
+            "width": 440,
+            "height": 473.1875,
+            "bottom": 1353.140625
+          },
+          {
+            "text": "Magic Money Wallet\n              A self-custody, multi-chain crypto wallet, by C",
+            "x": 536,
+            "y": 879.953125,
+            "width": 440,
+            "height": 473.1875,
+            "bottom": 1353.140625
+          },
+          {
+            "text": "AfterGlow\n              Create, curate, generate, publish and manage NFT collect",
+            "x": 48,
+            "y": 1417.140625,
+            "width": 440,
+            "height": 473.1875,
+            "bottom": 1890.328125
+          },
+          {
+            "text": "DUO\n                \n                \n                  \n                  Swarm",
+            "x": 536,
+            "y": 1417.140625,
+            "width": 440,
+            "height": 473.1875,
+            "bottom": 1890.328125
+          }
+        ]
+      }
+    ],
+    "identity": [
+      {
+        "tag": "FIGCAPTION",
+        "class": "",
+        "text": "DUO",
+        "display": "block",
+        "x": 689.265625,
+        "y": 1612.625,
+        "width": 32.65625,
+        "height": 21,
+        "bottom": 1633.625
+      },
+      {
+        "tag": "FIGCAPTION",
+        "class": "",
+        "text": "Swarm",
+        "display": "block",
+        "x": 827.84375,
+        "y": 1612.625,
+        "width": 46.015625,
+        "height": 21,
+        "bottom": 1633.625
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 156,
+        "y": 911.953125,
+        "width": 224,
+        "height": 224,
+        "bottom": 1135.953125
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 644,
+        "y": 911.953125,
+        "width": 224,
+        "height": 224,
+        "bottom": 1135.953125
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 72,
+        "y": 1518.890625,
+        "width": 392,
+        "height": 84.5,
+        "bottom": 1603.390625
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 590.734375,
+        "y": 1541.140625,
+        "width": 40,
+        "height": 40,
+        "bottom": 1581.140625
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 654.734375,
+        "y": 1488.65625,
+        "width": 101.703125,
+        "height": 119.96875,
+        "bottom": 1608.625
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 772.46875,
+        "y": 1557.671875,
+        "width": 156.765625,
+        "height": 50.953125,
+        "bottom": 1608.625
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "view": "magic-money",
+    "groups": [
+      {
+        "class": "hero hero--stacked",
+        "gap": "48px",
+        "rows": "48px",
+        "columns": "33.3281px 33.3281px 33.3281px 33.3281px 33.3281px 33.3281px 33.3281px 33.3281px 33.3281px 33.3281px 33.3281px 33.3281px",
+        "children": [
+          {
+            "text": "Magic Money Wallet\n              \n              One self-custody wallet for many",
+            "x": 48,
+            "y": 304.296875,
+            "width": 521.328125,
+            "height": 141.5,
+            "bottom": 445.796875
+          },
+          {
+            "text": "Magic Money Wallet is a self-custody, multi-chain crypto wallet, made by ChainLe",
+            "x": 617.328125,
+            "y": 161,
+            "width": 358.65625,
+            "height": 284.796875,
+            "bottom": 445.796875
+          }
+        ]
+      },
+      {
+        "class": "feature-list",
+        "gap": "32px",
+        "rows": "32px",
+        "columns": "277.328px 277.344px",
+        "children": [
+          {
+            "text": "Many networks, one seed phrase\n              One seed phrase covers 24 default m",
+            "x": 389.328125,
+            "y": 872.390625,
+            "width": 277.328125,
+            "height": 319.34375,
+            "bottom": 1191.734375
+          },
+          {
+            "text": "Self-custody by design\n              The recovery phrase is encrypted at rest, a",
+            "x": 698.65625,
+            "y": 872.390625,
+            "width": 277.34375,
+            "height": 319.34375,
+            "bottom": 1191.734375
+          },
+          {
+            "text": "Built-in swaps\n              Same-chain and cross-chain swaps are built in. Avai",
+            "x": 389.328125,
+            "y": 1223.734375,
+            "width": 277.328125,
+            "height": 135.78125,
+            "bottom": 1359.515625
+          },
+          {
+            "text": "dApp browser\n              Connect to dApps, with Magic Guard ad blocking and a ",
+            "x": 698.65625,
+            "y": 1223.734375,
+            "width": 277.34375,
+            "height": 135.78125,
+            "bottom": 1359.515625
+          },
+          {
+            "text": "Privacy Mode and Testnet Mode\n              Switch on Privacy Mode, or use Testn",
+            "x": 389.328125,
+            "y": 1391.515625,
+            "width": 277.328125,
+            "height": 140.1875,
+            "bottom": 1531.703125
+          },
+          {
+            "text": "Multi-account support and art themes\n              Use more than one account, an",
+            "x": 698.65625,
+            "y": 1391.515625,
+            "width": 277.34375,
+            "height": 140.1875,
+            "bottom": 1531.703125
+          },
+          {
+            "text": "Biometric unlock\n              Unlock with Windows Hello, Touch ID or Android bi",
+            "x": 389.328125,
+            "y": 1563.703125,
+            "width": 277.328125,
+            "height": 135.78125,
+            "bottom": 1699.484375
+          },
+          {
+            "text": "Available as\n              A desktop app (Windows, macOS, Linux), a Chrome exten",
+            "x": 698.65625,
+            "y": 1563.703125,
+            "width": 277.34375,
+            "height": 135.78125,
+            "bottom": 1699.484375
+          }
+        ]
+      }
+    ],
+    "identity": [
+      {
+        "tag": "P",
+        "class": "eyebrow product-identity",
+        "text": "Magic Money Wallet",
+        "display": "block",
+        "x": 48,
+        "y": 304.296875,
+        "width": 435.4375,
+        "height": 18,
+        "bottom": 322.296875
+      },
+      {
+        "tag": "IMG",
+        "class": "product-identity__icon",
+        "text": "",
+        "display": "none",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      },
+      {
+        "tag": "DIV",
+        "class": "wordmark",
+        "text": "",
+        "display": "flow-root",
+        "x": 48,
+        "y": 493.796875,
+        "width": 928,
+        "height": 185.59375,
+        "bottom": 679.390625
+      },
+      {
+        "tag": "IMG",
+        "class": "",
+        "text": "",
+        "display": "block",
+        "x": 48,
+        "y": 401,
+        "width": 928,
+        "height": 371.1875,
+        "bottom": 772.1875
+      }
+    ],
+    "images": [
+      {
+        "alt": "Magic Money logo",
+        "loaded": true,
+        "x": 48,
+        "y": 401,
+        "width": 928,
+        "height": 371.1875,
+        "bottom": 772.1875
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "view": "arcade",
+    "groups": [
+      {
+        "class": "hero hero--stacked",
+        "gap": "48px",
+        "rows": "48px",
+        "columns": "33.3281px 33.3281px 33.3281px 33.3281px 33.3281px 33.3281px 33.3281px 33.3281px 33.3281px 33.3281px 33.3281px 33.3281px",
+        "children": [
+          {
+            "text": "ChainLens Arcade\n              \n              Free multiplayer games in your bro",
+            "x": 48,
+            "y": 249.0625,
+            "width": 521.328125,
+            "height": 187.5,
+            "bottom": 436.5625
+          },
+          {
+            "text": "ChainLens Arcade has six games you can play with friends or bots, right in your ",
+            "x": 617.328125,
+            "y": 161,
+            "width": 358.65625,
+            "height": 275.5625,
+            "bottom": 436.5625
+          }
+        ]
+      },
+      {
+        "class": "game-grid",
+        "gap": "64px 48px",
+        "rows": "64px",
+        "columns": "277.328px 277.328px 277.344px",
+        "children": [
+          {
+            "text": "DUO\n              A free card game. Team up and share one hand, or go SOLO with ",
+            "x": 48,
+            "y": 701.296875,
+            "width": 277.328125,
+            "height": 408.375,
+            "bottom": 1109.671875
+          },
+          {
+            "text": "Poker\n              Texas Hold'em and Blackjack with friends and bots, using fre",
+            "x": 373.328125,
+            "y": 701.296875,
+            "width": 277.328125,
+            "height": 408.375,
+            "bottom": 1109.671875
+          },
+          {
+            "text": "Pool\n              3D 8-ball with friends and bots. Play solo head to head, or D",
+            "x": 698.65625,
+            "y": 701.296875,
+            "width": 277.34375,
+            "height": 408.375,
+            "bottom": 1109.671875
+          },
+          {
+            "text": "Swarm\n              Pick a hero and survive a growing horde. Co-op for 2 to 4 pl",
+            "x": 48,
+            "y": 1173.671875,
+            "width": 277.328125,
+            "height": 382.78125,
+            "bottom": 1556.453125
+          },
+          {
+            "text": "Clash\n              A platform fighter. Rack up damage and launch your rivals of",
+            "x": 373.328125,
+            "y": 1173.671875,
+            "width": 277.328125,
+            "height": 382.78125,
+            "bottom": 1556.453125
+          },
+          {
+            "text": "World\n              An open-world adventure. Explore, fight monsters, loot, trad",
+            "x": 698.65625,
+            "y": 1173.671875,
+            "width": 277.34375,
+            "height": 382.78125,
+            "bottom": 1556.453125
+          }
+        ]
+      }
+    ],
+    "identity": [],
+    "images": [
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 56,
+        "y": 257.0625,
+        "width": 40,
+        "height": 40,
+        "bottom": 297.0625
+      },
+      {
+        "alt": "DUO logo",
+        "loaded": true,
+        "x": 105.28125,
+        "y": 725.3125,
+        "width": 162.765625,
+        "height": 191.984375,
+        "bottom": 917.296875
+      },
+      {
+        "alt": "Poker logo",
+        "loaded": true,
+        "x": 415.984375,
+        "y": 725.296875,
+        "width": 192,
+        "height": 192,
+        "bottom": 917.296875
+      },
+      {
+        "alt": "Pool logo",
+        "loaded": true,
+        "x": 723.65625,
+        "y": 745.515625,
+        "width": 227.34375,
+        "height": 151.5625,
+        "bottom": 897.078125
+      },
+      {
+        "alt": "Swarm logo",
+        "loaded": true,
+        "x": 73,
+        "y": 1256.734375,
+        "width": 227.328125,
+        "height": 73.875,
+        "bottom": 1330.609375
+      },
+      {
+        "alt": "Clash logo",
+        "loaded": true,
+        "x": 398.328125,
+        "y": 1251.578125,
+        "width": 227.328125,
+        "height": 84.1875,
+        "bottom": 1335.765625
+      },
+      {
+        "alt": "World logo",
+        "loaded": true,
+        "x": 723.65625,
+        "y": 1234.5625,
+        "width": 227.34375,
+        "height": 118.21875,
+        "bottom": 1352.78125
+      }
+    ]
+  },
+  {
+    "width": 1056,
+    "view": "home",
+    "groups": [
+      {
+        "class": "product-index",
+        "gap": "64px 48px",
+        "rows": "64px",
+        "columns": "456px 456px",
+        "children": [
+          {
+            "text": "ChainLens\n              Search the web and explore onchain activity in one place",
+            "x": 48,
+            "y": 884.078125,
+            "width": 456,
+            "height": 473.1875,
+            "bottom": 1357.265625
+          },
+          {
+            "text": "Magic Money Wallet\n              A self-custody, multi-chain crypto wallet, by C",
+            "x": 552,
+            "y": 884.078125,
+            "width": 456,
+            "height": 473.1875,
+            "bottom": 1357.265625
+          },
+          {
+            "text": "AfterGlow\n              Create, curate, generate, publish and manage NFT collect",
+            "x": 48,
+            "y": 1421.265625,
+            "width": 456,
+            "height": 473.1875,
+            "bottom": 1894.453125
+          },
+          {
+            "text": "DUO\n                \n                \n                  \n                  Swarm",
+            "x": 552,
+            "y": 1421.265625,
+            "width": 456,
+            "height": 473.1875,
+            "bottom": 1894.453125
+          }
+        ]
+      }
+    ],
+    "identity": [
+      {
+        "tag": "FIGCAPTION",
+        "class": "",
+        "text": "DUO",
+        "display": "block",
+        "x": 710.078125,
+        "y": 1616.75,
+        "width": 32.65625,
+        "height": 21,
+        "bottom": 1637.75
+      },
+      {
+        "tag": "FIGCAPTION",
+        "class": "",
+        "text": "Swarm",
+        "display": "block",
+        "x": 851.84375,
+        "y": 1616.75,
+        "width": 46.015625,
+        "height": 21,
+        "bottom": 1637.75
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 164,
+        "y": 916.078125,
+        "width": 224,
+        "height": 224,
+        "bottom": 1140.078125
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 668,
+        "y": 916.078125,
+        "width": 224,
+        "height": 224,
+        "bottom": 1140.078125
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 72,
+        "y": 1521.28125,
+        "width": 408,
+        "height": 87.953125,
+        "bottom": 1609.234375
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 611.546875,
+        "y": 1545.265625,
+        "width": 40,
+        "height": 40,
+        "bottom": 1585.265625
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 675.546875,
+        "y": 1492.78125,
+        "width": 101.703125,
+        "height": 119.96875,
+        "bottom": 1612.75
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 793.265625,
+        "y": 1559.71875,
+        "width": 163.171875,
+        "height": 53.03125,
+        "bottom": 1612.75
+      }
+    ]
+  },
+  {
+    "width": 1056,
+    "view": "magic-money",
+    "groups": [
+      {
+        "class": "hero hero--stacked",
+        "gap": "48px",
+        "rows": "48px",
+        "columns": "36px 36px 36px 36px 36px 36px 36px 36px 36px 36px 36px 36px",
+        "children": [
+          {
+            "text": "Magic Money Wallet\n              \n              One self-custody wallet for many",
+            "x": 48,
+            "y": 302.796875,
+            "width": 540,
+            "height": 143.5625,
+            "bottom": 446.359375
+          },
+          {
+            "text": "Magic Money Wallet is a self-custody, multi-chain crypto wallet, made by ChainLe",
+            "x": 636,
+            "y": 161,
+            "width": 372,
+            "height": 285.359375,
+            "bottom": 446.359375
+          }
+        ]
+      },
+      {
+        "class": "feature-list",
+        "gap": "32px",
+        "rows": "32px",
+        "columns": "288px 288px",
+        "children": [
+          {
+            "text": "Many networks, one seed phrase\n              One seed phrase covers 24 default m",
+            "x": 400,
+            "y": 879.359375,
+            "width": 288,
+            "height": 293.75,
+            "bottom": 1173.109375
+          },
+          {
+            "text": "Self-custody by design\n              The recovery phrase is encrypted at rest, a",
+            "x": 720,
+            "y": 879.359375,
+            "width": 288,
+            "height": 293.75,
+            "bottom": 1173.109375
+          },
+          {
+            "text": "Built-in swaps\n              Same-chain and cross-chain swaps are built in. Avai",
+            "x": 400,
+            "y": 1205.109375,
+            "width": 288,
+            "height": 135.78125,
+            "bottom": 1340.890625
+          },
+          {
+            "text": "dApp browser\n              Connect to dApps, with Magic Guard ad blocking and a ",
+            "x": 720,
+            "y": 1205.109375,
+            "width": 288,
+            "height": 135.78125,
+            "bottom": 1340.890625
+          },
+          {
+            "text": "Privacy Mode and Testnet Mode\n              Switch on Privacy Mode, or use Testn",
+            "x": 400,
+            "y": 1372.890625,
+            "width": 288,
+            "height": 140.1875,
+            "bottom": 1513.078125
+          },
+          {
+            "text": "Multi-account support and art themes\n              Use more than one account, an",
+            "x": 720,
+            "y": 1372.890625,
+            "width": 288,
+            "height": 140.1875,
+            "bottom": 1513.078125
+          },
+          {
+            "text": "Biometric unlock\n              Unlock with Windows Hello, Touch ID or Android bi",
+            "x": 400,
+            "y": 1545.078125,
+            "width": 288,
+            "height": 135.78125,
+            "bottom": 1680.859375
+          },
+          {
+            "text": "Available as\n              A desktop app (Windows, macOS, Linux), a Chrome exten",
+            "x": 720,
+            "y": 1545.078125,
+            "width": 288,
+            "height": 135.78125,
+            "bottom": 1680.859375
+          }
+        ]
+      }
+    ],
+    "identity": [
+      {
+        "tag": "P",
+        "class": "eyebrow product-identity",
+        "text": "Magic Money Wallet",
+        "display": "block",
+        "x": 48,
+        "y": 302.796875,
+        "width": 435.4375,
+        "height": 18,
+        "bottom": 320.796875
+      },
+      {
+        "tag": "IMG",
+        "class": "product-identity__icon",
+        "text": "",
+        "display": "none",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      },
+      {
+        "tag": "DIV",
+        "class": "wordmark",
+        "text": "",
+        "display": "flow-root",
+        "x": 48,
+        "y": 494.359375,
+        "width": 960,
+        "height": 192,
+        "bottom": 686.359375
+      },
+      {
+        "tag": "IMG",
+        "class": "",
+        "text": "",
+        "display": "block",
+        "x": 48,
+        "y": 398.359375,
+        "width": 960,
+        "height": 384,
+        "bottom": 782.359375
+      }
+    ],
+    "images": [
+      {
+        "alt": "Magic Money logo",
+        "loaded": true,
+        "x": 48,
+        "y": 398.359375,
+        "width": 960,
+        "height": 384,
+        "bottom": 782.359375
+      }
+    ]
+  },
+  {
+    "width": 1095,
+    "view": "home",
+    "groups": [
+      {
+        "class": "product-index",
+        "gap": "64px 48px",
+        "rows": "64px",
+        "columns": "475.5px 475.5px",
+        "children": [
+          {
+            "text": "ChainLens\n              Search the web and explore onchain activity in one place",
+            "x": 48,
+            "y": 822.4375,
+            "width": 475.5,
+            "height": 473.1875,
+            "bottom": 1295.625
+          },
+          {
+            "text": "Magic Money Wallet\n              A self-custody, multi-chain crypto wallet, by C",
+            "x": 571.5,
+            "y": 822.4375,
+            "width": 475.5,
+            "height": 473.1875,
+            "bottom": 1295.625
+          },
+          {
+            "text": "AfterGlow\n              Create, curate, generate, publish and manage NFT collect",
+            "x": 48,
+            "y": 1359.625,
+            "width": 475.5,
+            "height": 473.1875,
+            "bottom": 1832.8125
+          },
+          {
+            "text": "DUO\n                \n                \n                  \n                  Swarm",
+            "x": 571.5,
+            "y": 1359.625,
+            "width": 475.5,
+            "height": 473.1875,
+            "bottom": 1832.8125
+          }
+        ]
+      }
+    ],
+    "identity": [
+      {
+        "tag": "FIGCAPTION",
+        "class": "",
+        "text": "DUO",
+        "display": "block",
+        "x": 735.421875,
+        "y": 1555.109375,
+        "width": 32.65625,
+        "height": 21,
+        "bottom": 1576.109375
+      },
+      {
+        "tag": "FIGCAPTION",
+        "class": "",
+        "text": "Swarm",
+        "display": "block",
+        "x": 881.09375,
+        "y": 1555.109375,
+        "width": 46.015625,
+        "height": 21,
+        "bottom": 1576.109375
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 173.75,
+        "y": 854.4375,
+        "width": 224,
+        "height": 224,
+        "bottom": 1078.4375
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 697.25,
+        "y": 854.4375,
+        "width": 224,
+        "height": 224,
+        "bottom": 1078.4375
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 72,
+        "y": 1457.546875,
+        "width": 427.5,
+        "height": 92.15625,
+        "bottom": 1549.703125
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 636.890625,
+        "y": 1483.625,
+        "width": 40,
+        "height": 40,
+        "bottom": 1523.625
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 700.890625,
+        "y": 1431.140625,
+        "width": 101.703125,
+        "height": 119.96875,
+        "bottom": 1551.109375
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 818.625,
+        "y": 1495.546875,
+        "width": 170.953125,
+        "height": 55.5625,
+        "bottom": 1551.109375
+      }
+    ]
+  },
+  {
+    "width": 1095,
+    "view": "magic-money",
+    "groups": [
+      {
+        "class": "hero hero--stacked",
+        "gap": "48px",
+        "rows": "48px",
+        "columns": "39.25px 39.25px 39.25px 39.25px 39.25px 39.25px 39.25px 39.25px 39.25px 39.25px 39.25px 39.25px",
+        "children": [
+          {
+            "text": "Magic Money Wallet\n              \n              One self-custody wallet for many",
+            "x": 48,
+            "y": 275.46875,
+            "width": 562.75,
+            "height": 146,
+            "bottom": 421.46875
+          },
+          {
+            "text": "Magic Money Wallet is a self-custody, multi-chain crypto wallet, made by ChainLe",
+            "x": 658.75,
+            "y": 161,
+            "width": 388.25,
+            "height": 260.46875,
+            "bottom": 421.46875
+          }
+        ]
+      },
+      {
+        "class": "feature-list",
+        "gap": "32px",
+        "rows": "32px",
+        "columns": "301px 301px",
+        "children": [
+          {
+            "text": "Many networks, one seed phrase\n              One seed phrase covers 24 default m",
+            "x": 413,
+            "y": 862.28125,
+            "width": 301,
+            "height": 293.75,
+            "bottom": 1156.03125
+          },
+          {
+            "text": "Self-custody by design\n              The recovery phrase is encrypted at rest, a",
+            "x": 746,
+            "y": 862.28125,
+            "width": 301,
+            "height": 293.75,
+            "bottom": 1156.03125
+          },
+          {
+            "text": "Built-in swaps\n              Same-chain and cross-chain swaps are built in. Avai",
+            "x": 413,
+            "y": 1188.03125,
+            "width": 301,
+            "height": 135.78125,
+            "bottom": 1323.8125
+          },
+          {
+            "text": "dApp browser\n              Connect to dApps, with Magic Guard ad blocking and a ",
+            "x": 746,
+            "y": 1188.03125,
+            "width": 301,
+            "height": 135.78125,
+            "bottom": 1323.8125
+          },
+          {
+            "text": "Privacy Mode and Testnet Mode\n              Switch on Privacy Mode, or use Testn",
+            "x": 413,
+            "y": 1355.8125,
+            "width": 301,
+            "height": 140.1875,
+            "bottom": 1496
+          },
+          {
+            "text": "Multi-account support and art themes\n              Use more than one account, an",
+            "x": 746,
+            "y": 1355.8125,
+            "width": 301,
+            "height": 140.1875,
+            "bottom": 1496
+          },
+          {
+            "text": "Biometric unlock\n              Unlock with Windows Hello, Touch ID or Android bi",
+            "x": 413,
+            "y": 1528,
+            "width": 301,
+            "height": 135.78125,
+            "bottom": 1663.78125
+          },
+          {
+            "text": "Available as\n              A desktop app (Windows, macOS, Linux), a Chrome exten",
+            "x": 746,
+            "y": 1528,
+            "width": 301,
+            "height": 135.78125,
+            "bottom": 1663.78125
+          }
+        ]
+      }
+    ],
+    "identity": [
+      {
+        "tag": "P",
+        "class": "eyebrow product-identity",
+        "text": "Magic Money Wallet",
+        "display": "block",
+        "x": 48,
+        "y": 275.46875,
+        "width": 435.4375,
+        "height": 18,
+        "bottom": 293.46875
+      },
+      {
+        "tag": "IMG",
+        "class": "product-identity__icon",
+        "text": "",
+        "display": "none",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      },
+      {
+        "tag": "DIV",
+        "class": "wordmark",
+        "text": "",
+        "display": "flow-root",
+        "x": 48,
+        "y": 469.46875,
+        "width": 999,
+        "height": 199.8125,
+        "bottom": 669.28125
+      },
+      {
+        "tag": "IMG",
+        "class": "",
+        "text": "",
+        "display": "block",
+        "x": 48,
+        "y": 369.578125,
+        "width": 999,
+        "height": 399.59375,
+        "bottom": 769.171875
+      }
+    ],
+    "images": [
+      {
+        "alt": "Magic Money logo",
+        "loaded": true,
+        "x": 48,
+        "y": 369.578125,
+        "width": 999,
+        "height": 399.59375,
+        "bottom": 769.171875
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "view": "home",
+    "groups": [
+      {
+        "class": "product-index",
+        "gap": "32px",
+        "rows": "32px",
+        "columns": "336px 336px",
+        "children": [
+          {
+            "text": "ChainLens\n              Search the web and explore onchain activity in one place",
+            "x": 32,
+            "y": 696.84375,
+            "width": 336,
+            "height": 434.78125,
+            "bottom": 1131.625
+          },
+          {
+            "text": "Magic Money Wallet\n              A self-custody, multi-chain crypto wallet, by C",
+            "x": 400,
+            "y": 696.84375,
+            "width": 336,
+            "height": 434.78125,
+            "bottom": 1131.625
+          },
+          {
+            "text": "AfterGlow\n              Create, curate, generate, publish and manage NFT collect",
+            "x": 32,
+            "y": 1163.625,
+            "width": 336,
+            "height": 434.78125,
+            "bottom": 1598.40625
+          },
+          {
+            "text": "DUO\n                \n                \n                  \n                  Swarm",
+            "x": 400,
+            "y": 1163.625,
+            "width": 336,
+            "height": 434.78125,
+            "bottom": 1598.40625
+          }
+        ]
+      }
+    ],
+    "identity": [
+      {
+        "tag": "FIGCAPTION",
+        "class": "",
+        "text": "DUO",
+        "display": "block",
+        "x": 441.578125,
+        "y": 1341.109375,
+        "width": 32.65625,
+        "height": 21,
+        "bottom": 1362.109375
+      },
+      {
+        "tag": "FIGCAPTION",
+        "class": "",
+        "text": "Swarm",
+        "display": "block",
+        "x": 586.890625,
+        "y": 1341.109375,
+        "width": 46.015625,
+        "height": 21,
+        "bottom": 1362.109375
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 112,
+        "y": 720.84375,
+        "width": 176,
+        "height": 176,
+        "bottom": 896.84375
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 480,
+        "y": 720.84375,
+        "width": 176,
+        "height": 176,
+        "bottom": 896.84375
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 56,
+        "y": 1244.578125,
+        "width": 288,
+        "height": 62.078125,
+        "bottom": 1306.65625
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 548,
+        "y": 1197.125,
+        "width": 40,
+        "height": 40,
+        "bottom": 1237.125
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 424,
+        "y": 1257.125,
+        "width": 67.796875,
+        "height": 79.984375,
+        "bottom": 1337.109375
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 507.8125,
+        "y": 1270.75,
+        "width": 204.171875,
+        "height": 66.359375,
+        "bottom": 1337.109375
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "view": "magic-money",
+    "groups": [
+      {
+        "class": "hero hero--stacked",
+        "gap": "32px",
+        "rows": "32px",
+        "columns": "704px",
+        "children": [
+          {
+            "text": "Magic Money Wallet\n              \n              One self-custody wallet for many",
+            "x": 32,
+            "y": 181,
+            "width": 704,
+            "height": 171.25,
+            "bottom": 352.25
+          },
+          {
+            "text": "Magic Money Wallet is a self-custody, multi-chain crypto wallet, made by ChainLe",
+            "x": 32,
+            "y": 384.25,
+            "width": 704,
+            "height": 200.40625,
+            "bottom": 584.65625
+          }
+        ]
+      },
+      {
+        "class": "feature-list",
+        "gap": "32px",
+        "rows": "32px",
+        "columns": "336px 336px",
+        "children": [
+          {
+            "text": "Many networks, one seed phrase\n              One seed phrase covers 24 default m",
+            "x": 32,
+            "y": 780.96875,
+            "width": 336,
+            "height": 268.15625,
+            "bottom": 1049.125
+          },
+          {
+            "text": "Self-custody by design\n              The recovery phrase is encrypted at rest, a",
+            "x": 400,
+            "y": 780.96875,
+            "width": 336,
+            "height": 268.15625,
+            "bottom": 1049.125
+          },
+          {
+            "text": "Built-in swaps\n              Same-chain and cross-chain swaps are built in. Avai",
+            "x": 32,
+            "y": 1081.125,
+            "width": 336,
+            "height": 110.1875,
+            "bottom": 1191.3125
+          },
+          {
+            "text": "dApp browser\n              Connect to dApps, with Magic Guard ad blocking and a ",
+            "x": 400,
+            "y": 1081.125,
+            "width": 336,
+            "height": 110.1875,
+            "bottom": 1191.3125
+          },
+          {
+            "text": "Privacy Mode and Testnet Mode\n              Switch on Privacy Mode, or use Testn",
+            "x": 32,
+            "y": 1223.3125,
+            "width": 336,
+            "height": 140.1875,
+            "bottom": 1363.5
+          },
+          {
+            "text": "Multi-account support and art themes\n              Use more than one account, an",
+            "x": 400,
+            "y": 1223.3125,
+            "width": 336,
+            "height": 140.1875,
+            "bottom": 1363.5
+          },
+          {
+            "text": "Biometric unlock\n              Unlock with Windows Hello, Touch ID or Android bi",
+            "x": 32,
+            "y": 1395.5,
+            "width": 336,
+            "height": 110.1875,
+            "bottom": 1505.6875
+          },
+          {
+            "text": "Available as\n              A desktop app (Windows, macOS, Linux), a Chrome exten",
+            "x": 400,
+            "y": 1395.5,
+            "width": 336,
+            "height": 110.1875,
+            "bottom": 1505.6875
+          }
+        ]
+      }
+    ],
+    "identity": [
+      {
+        "tag": "P",
+        "class": "eyebrow product-identity",
+        "text": "Magic Money Wallet",
+        "display": "flex",
+        "x": 32,
+        "y": 181,
+        "width": 704,
+        "height": 56,
+        "bottom": 237
+      },
+      {
+        "tag": "IMG",
+        "class": "product-identity__icon",
+        "text": "",
+        "display": "block",
+        "x": 32,
+        "y": 181,
+        "width": 56,
+        "height": 56,
+        "bottom": 237
+      },
+      {
+        "tag": "DIV",
+        "class": "wordmark",
+        "text": "",
+        "display": "none",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      },
+      {
+        "tag": "IMG",
+        "class": "",
+        "text": "",
+        "display": "block",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 32,
+        "y": 181,
+        "width": 56,
+        "height": 56,
+        "bottom": 237
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "view": "arcade",
+    "groups": [
+      {
+        "class": "hero hero--stacked",
+        "gap": "32px",
+        "rows": "32px",
+        "columns": "336px 336px",
+        "children": [
+          {
+            "text": "ChainLens Arcade\n              \n              Free multiplayer games in your bro",
+            "x": 32,
+            "y": 233.5625,
+            "width": 336,
+            "height": 216.875,
+            "bottom": 450.4375
+          },
+          {
+            "text": "ChainLens Arcade has six games you can play with friends or bots, right in your ",
+            "x": 400,
+            "y": 181,
+            "width": 336,
+            "height": 269.4375,
+            "bottom": 450.4375
+          }
+        ]
+      },
+      {
+        "class": "game-grid",
+        "gap": "32px",
+        "rows": "32px",
+        "columns": "336px 336px",
+        "children": [
+          {
+            "text": "DUO\n              A free card game. Team up and share one hand, or go SOLO with ",
+            "x": 32,
+            "y": 646.75,
+            "width": 336,
+            "height": 408.375,
+            "bottom": 1055.125
+          },
+          {
+            "text": "Poker\n              Texas Hold'em and Blackjack with friends and bots, using fre",
+            "x": 400,
+            "y": 646.75,
+            "width": 336,
+            "height": 408.375,
+            "bottom": 1055.125
+          },
+          {
+            "text": "Pool\n              3D 8-ball with friends and bots. Play solo head to head, or D",
+            "x": 32,
+            "y": 1087.125,
+            "width": 336,
+            "height": 357.1875,
+            "bottom": 1444.3125
+          },
+          {
+            "text": "Swarm\n              Pick a hero and survive a growing horde. Co-op for 2 to 4 pl",
+            "x": 400,
+            "y": 1087.125,
+            "width": 336,
+            "height": 357.1875,
+            "bottom": 1444.3125
+          },
+          {
+            "text": "Clash\n              A platform fighter. Rack up damage and launch your rivals of",
+            "x": 32,
+            "y": 1476.3125,
+            "width": 336,
+            "height": 357.1875,
+            "bottom": 1833.5
+          },
+          {
+            "text": "World\n              An open-world adventure. Explore, fight monsters, loot, trad",
+            "x": 400,
+            "y": 1476.3125,
+            "width": 336,
+            "height": 357.1875,
+            "bottom": 1833.5
+          }
+        ]
+      }
+    ],
+    "identity": [],
+    "images": [
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 40,
+        "y": 241.5625,
+        "width": 40,
+        "height": 40,
+        "bottom": 281.5625
+      },
+      {
+        "alt": "DUO logo",
+        "loaded": true,
+        "x": 118.609375,
+        "y": 670.765625,
+        "width": 162.765625,
+        "height": 191.984375,
+        "bottom": 862.75
+      },
+      {
+        "alt": "Poker logo",
+        "loaded": true,
+        "x": 472,
+        "y": 670.75,
+        "width": 192,
+        "height": 192,
+        "bottom": 862.75
+      },
+      {
+        "alt": "Pool logo",
+        "loaded": true,
+        "x": 57,
+        "y": 1111.796875,
+        "width": 286,
+        "height": 190.65625,
+        "bottom": 1302.453125
+      },
+      {
+        "alt": "Swarm logo",
+        "loaded": true,
+        "x": 425,
+        "y": 1160.65625,
+        "width": 286,
+        "height": 92.9375,
+        "bottom": 1253.59375
+      },
+      {
+        "alt": "Clash logo",
+        "loaded": true,
+        "x": 57,
+        "y": 1543.34375,
+        "width": 286,
+        "height": 105.921875,
+        "bottom": 1649.265625
+      },
+      {
+        "alt": "World logo",
+        "loaded": true,
+        "x": 425,
+        "y": 1521.953125,
+        "width": 286,
+        "height": 148.71875,
+        "bottom": 1670.671875
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "view": "afterglow",
+    "groups": [
+      {
+        "class": "container hero",
+        "gap": "32px",
+        "rows": "32px",
+        "columns": "336px 336px",
+        "children": [
+          {
+            "text": "AfterGlow\n            Build and manage NFT collections in your own workspace.\n  ",
+            "x": 32,
+            "y": 181,
+            "width": 336,
+            "height": 413.546875,
+            "bottom": 594.546875
+          },
+          {
+            "text": "",
+            "x": 400,
+            "y": 259.765625,
+            "width": 336,
+            "height": 256,
+            "bottom": 515.765625
+          }
+        ]
+      },
+      {
+        "class": "feature-list",
+        "gap": "32px",
+        "rows": "32px",
+        "columns": "336px 336px",
+        "children": [
+          {
+            "text": "Layer-based generation\n              Import folders of trait layers and set rari",
+            "x": 32,
+            "y": 789.859375,
+            "width": 336,
+            "height": 110.1875,
+            "bottom": 900.046875
+          },
+          {
+            "text": "Canvas editing\n              Select multiple layers, then move, scale, rotate, c",
+            "x": 400,
+            "y": 789.859375,
+            "width": 336,
+            "height": 110.1875,
+            "bottom": 900.046875
+          },
+          {
+            "text": "Trait rules\n              Linked front and back artwork is supported, and exclus",
+            "x": 32,
+            "y": 932.046875,
+            "width": 336,
+            "height": 135.78125,
+            "bottom": 1067.828125
+          },
+          {
+            "text": "Your files stay safe\n              AfterGlow works on a copy of your artwork, no",
+            "x": 400,
+            "y": 932.046875,
+            "width": 336,
+            "height": 135.78125,
+            "bottom": 1067.828125
+          },
+          {
+            "text": "Nothing bundled\n              It ships with no collection artwork, wallets or cr",
+            "x": 32,
+            "y": 1099.828125,
+            "width": 336,
+            "height": 110.1875,
+            "bottom": 1210.015625
+          },
+          {
+            "text": "AfterMarket",
+            "x": 400,
+            "y": 1099.828125,
+            "width": 336,
+            "height": 110.1875,
+            "bottom": 1210.015625
+          },
+          {
+            "text": "Runs on\n              A local or private hosted install.",
+            "x": 32,
+            "y": 1242.015625,
+            "width": 336,
+            "height": 84.59375,
+            "bottom": 1326.609375
+          }
+        ]
+      }
+    ],
+    "identity": [],
+    "images": [
+      {
+        "alt": "AfterGlow logo",
+        "loaded": true,
+        "x": 432,
+        "y": 358.453125,
+        "width": 272,
+        "height": 58.625,
+        "bottom": 417.078125
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "view": "home",
+    "groups": [
+      {
+        "class": "product-index",
+        "gap": "24px",
+        "rows": "24px",
+        "columns": "358px",
+        "children": [
+          {
+            "text": "ChainLens\n              Search the web and explore onchain activity in one place",
+            "x": 16,
+            "y": 763.28125,
+            "width": 358,
+            "height": 409.1875,
+            "bottom": 1172.46875
+          },
+          {
+            "text": "Magic Money Wallet\n              A self-custody, multi-chain crypto wallet, by C",
+            "x": 16,
+            "y": 1196.46875,
+            "width": 358,
+            "height": 409.1875,
+            "bottom": 1605.65625
+          },
+          {
+            "text": "AfterGlow\n              Create, curate, generate, publish and manage NFT collect",
+            "x": 16,
+            "y": 1629.65625,
+            "width": 358,
+            "height": 409.1875,
+            "bottom": 2038.84375
+          },
+          {
+            "text": "DUO\n                \n                \n                  \n                  Swarm",
+            "x": 16,
+            "y": 2062.84375,
+            "width": 358,
+            "height": 409.1875,
+            "bottom": 2472.03125
+          }
+        ]
+      }
+    ],
+    "identity": [
+      {
+        "tag": "FIGCAPTION",
+        "class": "",
+        "text": "DUO",
+        "display": "block",
+        "x": 57.578125,
+        "y": 2240.328125,
+        "width": 32.65625,
+        "height": 21,
+        "bottom": 2261.328125
+      },
+      {
+        "tag": "FIGCAPTION",
+        "class": "",
+        "text": "Swarm",
+        "display": "block",
+        "x": 213.890625,
+        "y": 2240.328125,
+        "width": 46.015625,
+        "height": 21,
+        "bottom": 2261.328125
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 107,
+        "y": 787.28125,
+        "width": 176,
+        "height": 176,
+        "bottom": 963.28125
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 107,
+        "y": 1220.46875,
+        "width": 176,
+        "height": 176,
+        "bottom": 1396.46875
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 40,
+        "y": 1708.234375,
+        "width": 310,
+        "height": 66.828125,
+        "bottom": 1775.0625
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 175,
+        "y": 2096.34375,
+        "width": 40,
+        "height": 40,
+        "bottom": 2136.34375
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 40,
+        "y": 2156.34375,
+        "width": 67.796875,
+        "height": 79.984375,
+        "bottom": 2236.328125
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 123.828125,
+        "y": 2162.828125,
+        "width": 226.140625,
+        "height": 73.5,
+        "bottom": 2236.328125
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "view": "magic-money",
+    "groups": [
+      {
+        "class": "hero hero--stacked",
+        "gap": "24px",
+        "rows": "24px",
+        "columns": "358px",
+        "children": [
+          {
+            "text": "Magic Money Wallet\n              \n              One self-custody wallet for many",
+            "x": 16,
+            "y": 213,
+            "width": 358,
+            "height": 194.46875,
+            "bottom": 407.46875
+          },
+          {
+            "text": "Magic Money Wallet is a self-custody, multi-chain crypto wallet, made by ChainLe",
+            "x": 16,
+            "y": 431.46875,
+            "width": 358,
+            "height": 248.375,
+            "bottom": 679.84375
+          }
+        ]
+      },
+      {
+        "class": "feature-list",
+        "gap": "24px",
+        "rows": "24px",
+        "columns": "358px",
+        "children": [
+          {
+            "text": "Many networks, one seed phrase\n              One seed phrase covers 24 default m",
+            "x": 16,
+            "y": 841.03125,
+            "width": 358,
+            "height": 238.15625,
+            "bottom": 1079.1875
+          },
+          {
+            "text": "Self-custody by design\n              The recovery phrase is encrypted at rest, a",
+            "x": 16,
+            "y": 1103.1875,
+            "width": 358,
+            "height": 110.1875,
+            "bottom": 1213.375
+          },
+          {
+            "text": "Built-in swaps\n              Same-chain and cross-chain swaps are built in. Avai",
+            "x": 16,
+            "y": 1237.375,
+            "width": 358,
+            "height": 110.1875,
+            "bottom": 1347.5625
+          },
+          {
+            "text": "dApp browser\n              Connect to dApps, with Magic Guard ad blocking and a ",
+            "x": 16,
+            "y": 1371.5625,
+            "width": 358,
+            "height": 110.1875,
+            "bottom": 1481.75
+          },
+          {
+            "text": "Privacy Mode and Testnet Mode\n              Switch on Privacy Mode, or use Testn",
+            "x": 16,
+            "y": 1505.75,
+            "width": 358,
+            "height": 84.59375,
+            "bottom": 1590.34375
+          },
+          {
+            "text": "Multi-account support and art themes\n              Use more than one account, an",
+            "x": 16,
+            "y": 1614.34375,
+            "width": 358,
+            "height": 140.1875,
+            "bottom": 1754.53125
+          },
+          {
+            "text": "Biometric unlock\n              Unlock with Windows Hello, Touch ID or Android bi",
+            "x": 16,
+            "y": 1778.53125,
+            "width": 358,
+            "height": 110.1875,
+            "bottom": 1888.71875
+          },
+          {
+            "text": "Available as\n              A desktop app (Windows, macOS, Linux), a Chrome exten",
+            "x": 16,
+            "y": 1912.71875,
+            "width": 358,
+            "height": 110.1875,
+            "bottom": 2022.90625
+          }
+        ]
+      }
+    ],
+    "identity": [
+      {
+        "tag": "P",
+        "class": "eyebrow product-identity",
+        "text": "Magic Money Wallet",
+        "display": "flex",
+        "x": 16,
+        "y": 213,
+        "width": 358,
+        "height": 56,
+        "bottom": 269
+      },
+      {
+        "tag": "IMG",
+        "class": "product-identity__icon",
+        "text": "",
+        "display": "block",
+        "x": 16,
+        "y": 213,
+        "width": 56,
+        "height": 56,
+        "bottom": 269
+      },
+      {
+        "tag": "DIV",
+        "class": "wordmark",
+        "text": "",
+        "display": "none",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      },
+      {
+        "tag": "IMG",
+        "class": "",
+        "text": "",
+        "display": "block",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 16,
+        "y": 213,
+        "width": 56,
+        "height": 56,
+        "bottom": 269
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "view": "home",
+    "groups": [
+      {
+        "class": "product-index",
+        "gap": "24px",
+        "rows": "24px",
+        "columns": "288px",
+        "children": [
+          {
+            "text": "ChainLens\n              Search the web and explore onchain activity in one place",
+            "x": 16,
+            "y": 879.625,
+            "width": 288,
+            "height": 409.1875,
+            "bottom": 1288.8125
+          },
+          {
+            "text": "Magic Money Wallet\n              A self-custody, multi-chain crypto wallet, by C",
+            "x": 16,
+            "y": 1312.8125,
+            "width": 288,
+            "height": 434.78125,
+            "bottom": 1747.59375
+          },
+          {
+            "text": "AfterGlow\n              Create, curate, generate, publish and manage NFT collect",
+            "x": 16,
+            "y": 1771.59375,
+            "width": 288,
+            "height": 434.78125,
+            "bottom": 2206.375
+          },
+          {
+            "text": "DUO\n                \n                \n                  \n                  Swarm",
+            "x": 16,
+            "y": 2230.375,
+            "width": 288,
+            "height": 409.1875,
+            "bottom": 2639.5625
+          }
+        ]
+      }
+    ],
+    "identity": [
+      {
+        "tag": "FIGCAPTION",
+        "class": "",
+        "text": "DUO",
+        "display": "block",
+        "x": 57.578125,
+        "y": 2407.859375,
+        "width": 32.65625,
+        "height": 21,
+        "bottom": 2428.859375
+      },
+      {
+        "tag": "FIGCAPTION",
+        "class": "",
+        "text": "Swarm",
+        "display": "block",
+        "x": 178.890625,
+        "y": 2407.859375,
+        "width": 46.015625,
+        "height": 21,
+        "bottom": 2428.859375
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 72,
+        "y": 903.625,
+        "width": 176,
+        "height": 176,
+        "bottom": 1079.625
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 72,
+        "y": 1336.8125,
+        "width": 176,
+        "height": 176,
+        "bottom": 1512.8125
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 40,
+        "y": 1857.71875,
+        "width": 240,
+        "height": 51.734375,
+        "bottom": 1909.453125
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 140,
+        "y": 2263.875,
+        "width": 40,
+        "height": 40,
+        "bottom": 2303.875
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 40,
+        "y": 2323.875,
+        "width": 67.796875,
+        "height": 79.984375,
+        "bottom": 2403.859375
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 123.828125,
+        "y": 2353.109375,
+        "width": 156.140625,
+        "height": 50.75,
+        "bottom": 2403.859375
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "view": "magic-money",
+    "groups": [
+      {
+        "class": "hero hero--stacked",
+        "gap": "24px",
+        "rows": "24px",
+        "columns": "288px",
+        "children": [
+          {
+            "text": "Magic Money Wallet\n              \n              One self-custody wallet for many",
+            "x": 16,
+            "y": 213,
+            "width": 288,
+            "height": 194.46875,
+            "bottom": 407.46875
+          },
+          {
+            "text": "Magic Money Wallet is a self-custody, multi-chain crypto wallet, made by ChainLe",
+            "x": 16,
+            "y": 431.46875,
+            "width": 288,
+            "height": 360.96875,
+            "bottom": 792.4375
+          }
+        ]
+      },
+      {
+        "class": "feature-list",
+        "gap": "24px",
+        "rows": "24px",
+        "columns": "288px",
+        "children": [
+          {
+            "text": "Many networks, one seed phrase\n              One seed phrase covers 24 default m",
+            "x": 16,
+            "y": 953.625,
+            "width": 288,
+            "height": 293.75,
+            "bottom": 1247.375
+          },
+          {
+            "text": "Self-custody by design\n              The recovery phrase is encrypted at rest, a",
+            "x": 16,
+            "y": 1271.375,
+            "width": 288,
+            "height": 135.78125,
+            "bottom": 1407.15625
+          },
+          {
+            "text": "Built-in swaps\n              Same-chain and cross-chain swaps are built in. Avai",
+            "x": 16,
+            "y": 1431.15625,
+            "width": 288,
+            "height": 135.78125,
+            "bottom": 1566.9375
+          },
+          {
+            "text": "dApp browser\n              Connect to dApps, with Magic Guard ad blocking and a ",
+            "x": 16,
+            "y": 1590.9375,
+            "width": 288,
+            "height": 110.1875,
+            "bottom": 1701.125
+          },
+          {
+            "text": "Privacy Mode and Testnet Mode\n              Switch on Privacy Mode, or use Testn",
+            "x": 16,
+            "y": 1725.125,
+            "width": 288,
+            "height": 140.1875,
+            "bottom": 1865.3125
+          },
+          {
+            "text": "Multi-account support and art themes\n              Use more than one account, an",
+            "x": 16,
+            "y": 1889.3125,
+            "width": 288,
+            "height": 140.1875,
+            "bottom": 2029.5
+          },
+          {
+            "text": "Biometric unlock\n              Unlock with Windows Hello, Touch ID or Android bi",
+            "x": 16,
+            "y": 2053.5,
+            "width": 288,
+            "height": 110.1875,
+            "bottom": 2163.6875
+          },
+          {
+            "text": "Available as\n              A desktop app (Windows, macOS, Linux), a Chrome exten",
+            "x": 16,
+            "y": 2187.6875,
+            "width": 288,
+            "height": 135.78125,
+            "bottom": 2323.46875
+          }
+        ]
+      }
+    ],
+    "identity": [
+      {
+        "tag": "P",
+        "class": "eyebrow product-identity",
+        "text": "Magic Money Wallet",
+        "display": "flex",
+        "x": 16,
+        "y": 213,
+        "width": 288,
+        "height": 56,
+        "bottom": 269
+      },
+      {
+        "tag": "IMG",
+        "class": "product-identity__icon",
+        "text": "",
+        "display": "block",
+        "x": 16,
+        "y": 213,
+        "width": 56,
+        "height": 56,
+        "bottom": 269
+      },
+      {
+        "tag": "DIV",
+        "class": "wordmark",
+        "text": "",
+        "display": "none",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      },
+      {
+        "tag": "IMG",
+        "class": "",
+        "text": "",
+        "display": "block",
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0
+      }
+    ],
+    "images": [
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 16,
+        "y": 213,
+        "width": 56,
+        "height": 56,
+        "bottom": 269
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "view": "arcade",
+    "groups": [
+      {
+        "class": "hero hero--stacked",
+        "gap": "24px",
+        "rows": "24px",
+        "columns": "288px",
+        "children": [
+          {
+            "text": "ChainLens Arcade\n              \n              Free multiplayer games in your bro",
+            "x": 16,
+            "y": 213,
+            "width": 288,
+            "height": 194.46875,
+            "bottom": 407.46875
+          },
+          {
+            "text": "ChainLens Arcade has six games you can play with friends or bots, right in your ",
+            "x": 16,
+            "y": 431.46875,
+            "width": 288,
+            "height": 263,
+            "bottom": 694.46875
+          }
+        ]
+      },
+      {
+        "class": "game-grid",
+        "gap": "24px",
+        "rows": "24px",
+        "columns": "288px",
+        "children": [
+          {
+            "text": "DUO\n              A free card game. Team up and share one hand, or go SOLO with ",
+            "x": 16,
+            "y": 855.65625,
+            "width": 288,
+            "height": 408.375,
+            "bottom": 1264.03125
+          },
+          {
+            "text": "Poker\n              Texas Hold'em and Blackjack with friends and bots, using fre",
+            "x": 16,
+            "y": 1288.03125,
+            "width": 288,
+            "height": 357.1875,
+            "bottom": 1645.21875
+          },
+          {
+            "text": "Pool\n              3D 8-ball with friends and bots. Play solo head to head, or D",
+            "x": 16,
+            "y": 1669.21875,
+            "width": 288,
+            "height": 382.78125,
+            "bottom": 2052
+          },
+          {
+            "text": "Swarm\n              Pick a hero and survive a growing horde. Co-op for 2 to 4 pl",
+            "x": 16,
+            "y": 2076,
+            "width": 288,
+            "height": 357.1875,
+            "bottom": 2433.1875
+          },
+          {
+            "text": "Clash\n              A platform fighter. Rack up damage and launch your rivals of",
+            "x": 16,
+            "y": 2457.1875,
+            "width": 288,
+            "height": 382.78125,
+            "bottom": 2839.96875
+          },
+          {
+            "text": "World\n              An open-world adventure. Explore, fight monsters, loot, trad",
+            "x": 16,
+            "y": 2863.96875,
+            "width": 288,
+            "height": 382.78125,
+            "bottom": 3246.75
+          }
+        ]
+      }
+    ],
+    "identity": [],
+    "images": [
+      {
+        "alt": "",
+        "loaded": true,
+        "x": 24,
+        "y": 221,
+        "width": 40,
+        "height": 40,
+        "bottom": 261
+      },
+      {
+        "alt": "DUO logo",
+        "loaded": true,
+        "x": 78.609375,
+        "y": 879.671875,
+        "width": 162.765625,
+        "height": 191.984375,
+        "bottom": 1071.65625
+      },
+      {
+        "alt": "Poker logo",
+        "loaded": true,
+        "x": 64,
+        "y": 1312.03125,
+        "width": 192,
+        "height": 192,
+        "bottom": 1504.03125
+      },
+      {
+        "alt": "Pool logo",
+        "loaded": true,
+        "x": 41,
+        "y": 1709.890625,
+        "width": 238,
+        "height": 158.65625,
+        "bottom": 1868.546875
+      },
+      {
+        "alt": "Swarm logo",
+        "loaded": true,
+        "x": 41,
+        "y": 2157.328125,
+        "width": 238,
+        "height": 77.34375,
+        "bottom": 2234.671875
+      },
+      {
+        "alt": "Clash logo",
+        "loaded": true,
+        "x": 41,
+        "y": 2533.109375,
+        "width": 238,
+        "height": 88.140625,
+        "bottom": 2621.25
+      },
+      {
+        "alt": "World logo",
+        "loaded": true,
+        "x": 41,
+        "y": 2922.09375,
+        "width": 238,
+        "height": 123.75,
+        "bottom": 3045.84375
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "view": "afterglow",
+    "groups": [
+      {
+        "class": "container hero",
+        "gap": "24px",
+        "rows": "24px",
+        "columns": "288px",
+        "children": [
+          {
+            "text": "AfterGlow\n            Build and manage NFT collections in your own workspace.\n  ",
+            "x": 16,
+            "y": 213,
+            "width": 288,
+            "height": 333.21875,
+            "bottom": 546.21875
+          },
+          {
+            "text": "",
+            "x": 16,
+            "y": 570.21875,
+            "width": 288,
+            "height": 256,
+            "bottom": 826.21875
+          }
+        ]
+      },
+      {
+        "class": "feature-list",
+        "gap": "24px",
+        "rows": "24px",
+        "columns": "288px",
+        "children": [
+          {
+            "text": "Layer-based generation\n              Import folders of trait layers and set rari",
+            "x": 16,
+            "y": 986.40625,
+            "width": 288,
+            "height": 110.1875,
+            "bottom": 1096.59375
+          },
+          {
+            "text": "Canvas editing\n              Select multiple layers, then move, scale, rotate, c",
+            "x": 16,
+            "y": 1120.59375,
+            "width": 288,
+            "height": 110.1875,
+            "bottom": 1230.78125
+          },
+          {
+            "text": "Trait rules\n              Linked front and back artwork is supported, and exclus",
+            "x": 16,
+            "y": 1254.78125,
+            "width": 288,
+            "height": 161.375,
+            "bottom": 1416.15625
+          },
+          {
+            "text": "Your files stay safe\n              AfterGlow works on a copy of your artwork, no",
+            "x": 16,
+            "y": 1440.15625,
+            "width": 288,
+            "height": 110.1875,
+            "bottom": 1550.34375
+          },
+          {
+            "text": "Nothing bundled\n              It ships with no collection artwork, wallets or cr",
+            "x": 16,
+            "y": 1574.34375,
+            "width": 288,
+            "height": 110.1875,
+            "bottom": 1684.53125
+          },
+          {
+            "text": "AfterMarket",
+            "x": 16,
+            "y": 1708.53125,
+            "width": 288,
+            "height": 59,
+            "bottom": 1767.53125
+          },
+          {
+            "text": "Runs on\n              A local or private hosted install.",
+            "x": 16,
+            "y": 1791.53125,
+            "width": 288,
+            "height": 84.59375,
+            "bottom": 1876.125
+          }
+        ]
+      }
+    ],
+    "identity": [],
+    "images": [
+      {
+        "alt": "AfterGlow logo",
+        "loaded": true,
+        "x": 48,
+        "y": 674.078125,
+        "width": 224,
+        "height": 48.28125,
+        "bottom": 722.359375
+      }
+    ]
+  }
+]
