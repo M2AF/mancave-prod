@@ -2,4 +2,4 @@
 
 Lasting, verified facts, by topic. See AGENTS.md for how to add one.
 
-Nothing recorded yet.
+- [layout](layout.md): CSS layout pitfalls, such as elements overlapping and blocking clicks.

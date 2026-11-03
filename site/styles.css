@@ -421,7 +421,8 @@ main:has(> .surface-dark:not([hidden])):focus-visible { outline-color: var(--amb
   .wordmark { display: flow-root; width: min(100%, 1000px); margin: 3rem auto 0; }
   /* The PNG is 38% transparent above and below its artwork. It stays uncropped; these
      margins only let the section close some of that gap. Percentages follow the width. */
-  .wordmark img { width: 100%; margin-block: -10%; }
+  /* The negative top margin pulls the image over the hero buttons; let clicks through. */
+  .wordmark img { width: 100%; margin-block: -10%; pointer-events: none; }
 }
 
 .notes { margin: 0; padding: 0; list-style: none; max-width: 66ch; }

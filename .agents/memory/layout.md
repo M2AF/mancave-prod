@@ -1,0 +1,1 @@
+- 2026-11-02 (claude): The Magic Money `.wordmark img` uses negative `margin-block` at >=1024px and overlaps the hero buttons; it needs `pointer-events: none` or the Download/GitHub buttons stop receiving clicks. Check with `elementFromPoint` on button centres after any change to that section.
